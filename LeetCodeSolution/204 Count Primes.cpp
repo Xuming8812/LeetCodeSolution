@@ -6,37 +6,34 @@ using namespace std;
 
 
 /* 
-Given two strings s and t , write a function to determine if t is an anagram of s.
+Count the number of prime numbers less than a non-negative number, n.
 */
 
-bool isAnagram(string s, string t)
-{
-	//check whether these two strings have the same length
-	if (s.size() != t.size())
+int countPrimes(int n) {
+	if (n < 3)
 	{
-		return false;
+		return 0;
 	}
-	//use a map to store char and its number
-	map<char, int> dict;
-	//count chars in string s
-	for (auto c : s)
-	{
-		dict[c]++;
-	}
-	//count chars in string t
-	for (auto c : t)
-	{
-		dict[c]--;
-	}
-	//check the fina results
-	for (auto item : dict)
-	{
-		if (item.second != 0)
-		{
-			return false;
-		}
-	}
+	//use this vector to store prime numbers
+	vector<int> primes = { 2 };
 
+	// for each number less than n, check whether it`s a prime number
+	for (int i = 3; i != n; ++i) {
+		
+		if (!isPrime(i, primes)) continue;
+
+		//store it in vector if it`s a prime number
+		primes.push_back(i);
+	}
+	//return the size of vector
+	return primes.size();
+}
+bool isPrime(int n, vector<int>& primes) {
+
+	//use ~method, check whether this number can be divided by prime numbers smaller than sqrt(n)
+	for (auto& prime : primes) {
+		if (prime > sqrt(n)) return true;
+		if (n % prime == 0) return false;
+	}
 	return true;
-
 }
