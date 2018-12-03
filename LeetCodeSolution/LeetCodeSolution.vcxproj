@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="204 Count Primes.cpp" />
     <ClCompile Include="242 Valid Anagram.cpp" />
+    <ClCompile Include="38 Count and Say.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

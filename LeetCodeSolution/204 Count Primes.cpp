@@ -9,6 +9,16 @@ using namespace std;
 Count the number of prime numbers less than a non-negative number, n.
 */
 
+bool isPrime(int n, vector<int>& primes) {
+
+	//use ~method, check whether this number can be divided by prime numbers smaller than sqrt(n)
+	for (auto& prime : primes) {
+		if (prime > sqrt(n)) return true;
+		if (n % prime == 0) return false;
+	}
+	return true;
+}
+
 int countPrimes(int n) {
 	if (n < 3)
 	{
@@ -27,13 +37,4 @@ int countPrimes(int n) {
 	}
 	//return the size of vector
 	return primes.size();
-}
-bool isPrime(int n, vector<int>& primes) {
-
-	//use ~method, check whether this number can be divided by prime numbers smaller than sqrt(n)
-	for (auto& prime : primes) {
-		if (prime > sqrt(n)) return true;
-		if (n % prime == 0) return false;
-	}
-	return true;
 }

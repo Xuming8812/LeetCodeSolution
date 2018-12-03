@@ -13,13 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Easy">
+      <UniqueIdentifier>{55ea2a03-f8d0-423b-b914-a6fde3ddd918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Middle">
+      <UniqueIdentifier>{e15c9260-c9bb-47f7-92ce-8e9c17c28693}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="204 Count Primes.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Easy</Filter>
     </ClCompile>
     <ClCompile Include="242 Valid Anagram.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="38 Count and Say.cpp">
+      <Filter>Source Files\Easy</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
