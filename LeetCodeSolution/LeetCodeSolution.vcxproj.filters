@@ -45,5 +45,8 @@
     <ClCompile Include="374 Guess Number Higher or Lower.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="558 Quad Tree Intersection.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
