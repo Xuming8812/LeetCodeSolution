@@ -60,5 +60,8 @@
     <ClCompile Include="67 Add Binary.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="434 Number of Segments in a String.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
