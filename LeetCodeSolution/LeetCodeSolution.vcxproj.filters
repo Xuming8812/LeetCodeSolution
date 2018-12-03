@@ -30,5 +30,20 @@
     <ClCompile Include="38 Count and Say.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="643 Maximum Average Subarray I.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="205 Isomorphic Strings.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="501 Find Mode in Binary Search Tree.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="743 Network Delay Time.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="374 Guess Number Higher or Lower.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
