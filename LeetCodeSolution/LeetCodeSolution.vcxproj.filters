@@ -54,5 +54,8 @@
     <ClCompile Include="441 Arranging Coins.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="225 Implement Stack using Queues.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

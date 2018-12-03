@@ -118,6 +118,7 @@
     <ClCompile Include="172 Factorial Trailing Zeroes.cpp" />
     <ClCompile Include="204 Count Primes.cpp" />
     <ClCompile Include="205 Isomorphic Strings.cpp" />
+    <ClCompile Include="225 Implement Stack using Queues.cpp" />
     <ClCompile Include="242 Valid Anagram.cpp" />
     <ClCompile Include="374 Guess Number Higher or Lower.cpp" />
     <ClCompile Include="38 Count and Say.cpp" />
