@@ -48,5 +48,8 @@
     <ClCompile Include="558 Quad Tree Intersection.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="172 Factorial Trailing Zeroes.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
