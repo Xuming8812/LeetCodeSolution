@@ -57,5 +57,8 @@
     <ClCompile Include="225 Implement Stack using Queues.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="67 Add Binary.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

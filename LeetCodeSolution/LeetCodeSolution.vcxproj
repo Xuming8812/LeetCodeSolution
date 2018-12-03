@@ -126,6 +126,7 @@
     <ClCompile Include="501 Find Mode in Binary Search Tree.cpp" />
     <ClCompile Include="558 Quad Tree Intersection.cpp" />
     <ClCompile Include="643 Maximum Average Subarray I.cpp" />
+    <ClCompile Include="67 Add Binary.cpp" />
     <ClCompile Include="743 Network Delay Time.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
