@@ -122,6 +122,7 @@
     <ClCompile Include="204 Count Primes.cpp" />
     <ClCompile Include="205 Isomorphic Strings.cpp" />
     <ClCompile Include="225 Implement Stack using Queues.cpp" />
+    <ClCompile Include="234 Palindrome Linked List.cpp" />
     <ClCompile Include="242 Valid Anagram.cpp" />
     <ClCompile Include="303 Range Sum Query - Immutable.cpp" />
     <ClCompile Include="374 Guess Number Higher or Lower.cpp" />

@@ -87,5 +87,8 @@
     <ClCompile Include="141 Linked List Cycle.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="234 Palindrome Linked List.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
