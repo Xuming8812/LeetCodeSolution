@@ -81,5 +81,8 @@
     <ClCompile Include="840 Magic Squares In Grid.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="203 Remove Linked List Elements.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
