@@ -134,6 +134,7 @@
     <ClCompile Include="643 Maximum Average Subarray I.cpp" />
     <ClCompile Include="67 Add Binary.cpp" />
     <ClCompile Include="743 Network Delay Time.cpp" />
+    <ClCompile Include="840 Magic Squares In Grid.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
