@@ -69,5 +69,8 @@
     <ClCompile Include="443 String Compression.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="303 Range Sum Query - Immutable.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -18,10 +18,14 @@ You call a pre-defined API guess(int num) which returns 3 possible results (-1, 
  1 : My number is higher
  0 : Congrats! You got it!
 */
-int guess(int num);
+
+
+//int guess(int num);
 
 
 //use left closed, right open section [left,right)
+
+/*
 int guessNumber(int n)
 {
 	if (n < 1)
@@ -51,3 +55,4 @@ int guessNumber(int n)
 	//left is the smallest value that guess(middle) == -1;
 	return left;
 }
+*/

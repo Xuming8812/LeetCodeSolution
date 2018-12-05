@@ -12,6 +12,7 @@ Count the number of segments in a string, where a segment is defined to be a con
 Please note that the string does not contain any non-printable characters.
 */
 
+/*
 int countSegments(string s)
 {
 	stringstream ss;
@@ -24,6 +25,8 @@ int countSegments(string s)
 	}
 	return result;
 }
+*/
+
 
 //second version to find non-space char
 int countSegments(string s) {
