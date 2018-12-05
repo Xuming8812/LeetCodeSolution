@@ -75,5 +75,8 @@
     <ClCompile Include="438 Find All Anagrams in a String.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="20 Valid Parentheses.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
