@@ -125,6 +125,7 @@
     <ClCompile Include="374 Guess Number Higher or Lower.cpp" />
     <ClCompile Include="38 Count and Say.cpp" />
     <ClCompile Include="434 Number of Segments in a String.cpp" />
+    <ClCompile Include="438 Find All Anagrams in a String.cpp" />
     <ClCompile Include="441 Arranging Coins.cpp" />
     <ClCompile Include="443 String Compression.cpp" />
     <ClCompile Include="501 Find Mode in Binary Search Tree.cpp" />
