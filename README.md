@@ -8,4 +8,8 @@ Update 2018/12/3
     
 (2)Prob 374 Guess Number Higher or Lower:
     use [left,right) section when using binary search, then left will be the smallest that satisfy the g(middle)
+
+Update 2018/12/5
+(1)Prob 111 Minimum Depth of Binary Tree:
+    Be careful that the input tree is an extremely unbalanced tree;
     
