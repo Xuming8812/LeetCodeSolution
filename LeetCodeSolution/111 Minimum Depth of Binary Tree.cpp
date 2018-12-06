@@ -26,38 +26,13 @@ The minimum depth is the number of nodes along the shortest path from the root n
  //note that the special condition that a tree is extremly unbalanced
  int minDepth(TreeNode* root) {
 
-	 if (root == nullptr)
-	 {
+	 if (!root)
 		 return 0;
-	 }
-
-	 if (root->left == nullptr || root->right == nullptr)
-	 {
-		 return maxDepthHelper(root);
-	 }
+	 if (!root->left)
+		 return 1 + minDepth(root->right);
+	 else if (!root->right)
+		 return 1 + minDepth(root->left);
 	 else
-	 {
-		 return minDepthHelper(root);
-	 }
+		 return 1 + min(minDepth(root->left), minDepth(root->right));
 
- }
-
- int minDepthHelper(TreeNode* root)
- {
-	 if (root == nullptr)
-	 {
-		 return 0;
-	 }
-
-	 return 1 + min(minDepth(root->left), minDepth(root->right));
- }
-
- int maxDepthHelper(TreeNode* root)
- {
-	 if (root == nullptr)
-	 {
-		 return 0;
-	 }
-
-	 return 1 + max(minDepth(root->left), minDepth(root->right));
  }
