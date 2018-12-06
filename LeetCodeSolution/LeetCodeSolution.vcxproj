@@ -142,6 +142,7 @@
     <ClCompile Include="743 Network Delay Time.cpp" />
     <ClCompile Include="840 Magic Squares In Grid.cpp" />
     <ClCompile Include="203 Remove Linked List Elements.cpp" />
+    <ClCompile Include="88 Merge Sorted Array.cpp" />
     <ClCompile Include="941 Valid Mountain Array.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

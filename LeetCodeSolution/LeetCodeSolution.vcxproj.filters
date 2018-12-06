@@ -105,5 +105,8 @@
     <ClCompile Include="219 Contains Duplicate II.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="88 Merge Sorted Array.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
