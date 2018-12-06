@@ -115,6 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="111 Minimum Depth of Binary Tree.cpp" />
     <ClCompile Include="112 Path Sum.cpp" />
     <ClCompile Include="141 Linked List Cycle.cpp" />
     <ClCompile Include="172 Factorial Trailing Zeroes.cpp" />
