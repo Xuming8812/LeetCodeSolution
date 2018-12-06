@@ -102,5 +102,8 @@
     <ClCompile Include="290 Word Pattern.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="219 Contains Duplicate II.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
