@@ -139,6 +139,7 @@
     <ClCompile Include="558 Quad Tree Intersection.cpp" />
     <ClCompile Include="643 Maximum Average Subarray I.cpp" />
     <ClCompile Include="67 Add Binary.cpp" />
+    <ClCompile Include="680 Valid Palindrome II.cpp" />
     <ClCompile Include="743 Network Delay Time.cpp" />
     <ClCompile Include="840 Magic Squares In Grid.cpp" />
     <ClCompile Include="203 Remove Linked List Elements.cpp" />
