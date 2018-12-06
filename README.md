@@ -12,4 +12,6 @@ Update 2018/12/3
 Update 2018/12/5
 (1)Prob 111 Minimum Depth of Binary Tree:
     Be careful that the input tree is an extremely unbalanced tree;
+(2)Prob 155 Minimum Stack
+    Use a pair to store the value and the current minimum. Trade off between space and time.
     
