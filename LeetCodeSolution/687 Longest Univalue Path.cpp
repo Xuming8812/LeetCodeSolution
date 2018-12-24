@@ -26,6 +26,7 @@ int longestUnivaluePath(TreeNode* root)
 	return result;
 }
 
+//every time compare the result with (left + right), but return the max(left,right)
 int longestUnivaluePathHelper(TreeNode* root) {
 	if (root == nullptr)
 	{
