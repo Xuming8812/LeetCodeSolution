@@ -120,5 +120,8 @@
     <ClCompile Include="14 Longest Common Prefix.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="58 Length of Last Word.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
