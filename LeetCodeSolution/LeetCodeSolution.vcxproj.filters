@@ -123,5 +123,8 @@
     <ClCompile Include="58 Length of Last Word.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="949 Largest Time for Given Digits.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -149,6 +149,7 @@
     <ClCompile Include="88 Merge Sorted Array.cpp" />
     <ClCompile Include="914 X of a Kind in a Deck of Cards.cpp" />
     <ClCompile Include="941 Valid Mountain Array.cpp" />
+    <ClCompile Include="949 Largest Time for Given Digits.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
