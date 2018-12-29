@@ -17,6 +17,24 @@ Each group has exactly X cards.
 All the cards in each group have the same integer.
 */
 
+int greatCommonDivisor(int a, int b)
+{
+	int h = max(a, b);
+	int l = min(a, b);
+
+	if (l == 0) return h;
+
+	int m = h % l;
+
+	while (m) {
+		h = l;
+		l = m;
+		m = h % l;
+	}
+
+	return l;
+}
+
 //use a map to count each number and then find the gcd of those numbers
 bool hasGroupsSizeX(vector<int>& deck)
 {
@@ -43,20 +61,3 @@ bool hasGroupsSizeX(vector<int>& deck)
 	return result>1;
 }
 
-int greatCommonDivisor(int a, int b)
-{
-	int h = max(a, b);
-	int l = min(a, b);
-
-	if (l == 0) return h;
-
-	int m = h % l;
-
-	while (m) {
-		h = l;
-		l = m;
-		m = h % l;
-	}
-
-	return l;
-}

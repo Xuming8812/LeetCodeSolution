@@ -14,29 +14,6 @@ A 3 x 3 magic square is a 3 x 3 grid filled with distinct numbers from 1 to 9 su
 Given an grid of integers, how many 3 x 3 "magic square" subgrids are there?  (Each subgrid is contiguous).
 */
 
-int numMagicSquaresInside(vector<vector<int>>& grid)
-{
-	if (grid.size() < 3 || grid[0].size() < 3)
-	{
-		return 0;
-	}
-
-	int result{ 0 };
-
-	for (int row = 0; row + 2 < grid.size(); row++)
-	{
-		for (int col = 0; col + 2 < grid[0].size(); col++)
-		{
-			if (isMagic(grid, row, col))
-			{
-				result++;
-			}
-		}
-	}
-
-	return result;
-}
-
 bool isMagic(vector<vector<int>>& grid, int row, int col)
 {
 	//check whether the center is 5
@@ -92,3 +69,27 @@ bool isMagic(vector<vector<int>>& grid, int row, int col)
 
 	return true;
 }
+
+int numMagicSquaresInside(vector<vector<int>>& grid)
+{
+	if (grid.size() < 3 || grid[0].size() < 3)
+	{
+		return 0;
+	}
+
+	int result{ 0 };
+
+	for (int row = 0; row + 2 < grid.size(); row++)
+	{
+		for (int col = 0; col + 2 < grid[0].size(); col++)
+		{
+			if (isMagic(grid, row, col))
+			{
+				result++;
+			}
+		}
+	}
+
+	return result;
+}
+

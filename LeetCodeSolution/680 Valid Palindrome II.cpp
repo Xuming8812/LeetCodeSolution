@@ -10,6 +10,15 @@ using namespace std;
 /*
 Given a non - empty string s, you may delete at most one character.Judge whether you can make it a palindrome.
 */
+bool isPalindrome(string s, int i, int j) {
+	while (i < j) {
+		if (s[i] != s[j])
+			return false;
+		i++;
+		j--;
+	}
+	return true;
+}
 
 bool validPalindrome(string s) {
 	if (s.empty()) return false;
@@ -31,12 +40,4 @@ bool validPalindrome(string s) {
 	return true;
 }
 
-bool isPalindrome(string s, int i, int j) {
-	while (i < j) {
-		if (s[i] != s[j])
-			return false;
-		i++;
-		j--;
-	}
-	return true;
-}
+

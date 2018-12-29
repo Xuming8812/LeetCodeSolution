@@ -13,6 +13,27 @@ Write a function to find the longest common prefix string amongst an array of st
 If there is no common prefix, return an empty string "".
 */
 
+//get the longest common prefix of current prefix and the input string
+string commonPrefix(string current, string input)
+{
+	string result;
+
+	int index{ 0 };
+
+	while (index < current.size() && index < input.size())
+	{
+		if (current[index] == input[index])
+		{
+			index++;
+		}
+		else
+		{
+			break;
+		}
+	}
+	return current.substr(0, index);
+}
+
 string longestCommonPrefix(vector<string>& strs) {
 	string result;
 
@@ -32,23 +53,3 @@ string longestCommonPrefix(vector<string>& strs) {
 }
 
 
-//get the longest common prefix of current prefix and the input string
-string commonPrefix(string current, string input)
-{
-	string result;
-	
-	int index{ 0 };
-
-	while (index < current.size() && index < input.size())
-	{
-		if (current[index] == input[index])
-		{
-			index++;
-		}
-		else
-		{
-			break;
-		}
-	}
-	return current.substr(0, index);
-}

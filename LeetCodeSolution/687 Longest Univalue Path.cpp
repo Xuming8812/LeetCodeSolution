@@ -20,43 +20,45 @@ Given a binary tree, find the length of the longest path where each node in the 
 
  int result = 0;
 
+ //every time compare the result with (left + right), but return the max(left,right)
+ int longestUnivaluePathHelper(TreeNode* root) {
+	 if (root == nullptr)
+	 {
+		 return 0;
+	 }
+
+	 int left = longestUnivaluePathHelper(root->left);
+	 int right = longestUnivaluePathHelper(root->right);
+
+	 if (root->left != nullptr && root->val == root->left->val)
+	 {
+		 left++;
+	 }
+	 else
+	 {
+		 left = 0;
+	 }
+
+	 if (root->right != nullptr && root->val == root->right->val)
+	 {
+		 right++;
+	 }
+	 else
+	 {
+		 right = 0;
+	 }
+
+	 result = max(result, left + right);
+
+	 return max(left, right);
+ }
+
 int longestUnivaluePath(TreeNode* root)
 {
 	longestUnivaluePathHelper(root);
 	return result;
 }
 
-//every time compare the result with (left + right), but return the max(left,right)
-int longestUnivaluePathHelper(TreeNode* root) {
-	if (root == nullptr)
-	{
-		return 0;
-	}
 
-	int left = longestUnivaluePathHelper(root->left);
-	int right = longestUnivaluePathHelper(root->right);
-
-	if (root->left != nullptr && root->val == root->left->val)
-	{
-		left++;
-	}
-	else
-	{
-		left = 0;
-	}
-
-	if (root->right != nullptr && root->val == root->right->val)
-	{
-		right++;
-	}
-	else
-	{
-		right = 0;
-	}
-
-	result = max(result, left + right);
-
-	return max(left, right);
-}
 
 

@@ -34,7 +34,7 @@ bool containsNearbyDuplicate(vector<int>& nums, int k)
 			}
 			else
 			{
-				positions[nums[i] = i;
+				positions[nums[i]] = i;
 			}
 		}
 	}

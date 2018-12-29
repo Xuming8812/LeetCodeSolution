@@ -15,6 +15,21 @@ The smallest 24 hour time is 00:00, and the largest is 23:59.  Starting from 00:
 Return the answer as a string of length 5.  If no valid time can be made, return an empty string.
 */
 
+//use backtracking to get all permutation
+void permutation(vector<string>& res, string nums, int k) {
+	if (k == 1) {
+		res.push_back(nums);
+		return;
+	}
+	for (int i = 0; i < k; i++) {
+		swap(nums[i], nums[k - 1]);
+
+		permutation(res, nums, k - 1);
+
+		swap(nums[i], nums[k - 1]);
+	}
+}
+
 string largestTimeFromDigits(vector<int>& A) {
 	string ans, numbers;
 
@@ -39,17 +54,3 @@ string largestTimeFromDigits(vector<int>& A) {
 }
 
 
-//use backtracking to get all permutation
-void permutation(vector<string>& res, string nums, int k) {
-	if (k == 1) {
-		res.push_back(nums);
-		return;
-	}
-	for (int i = 0; i < k; i++) {
-		swap(nums[i], nums[k - 1]);
-
-		permutation(res, nums, k - 1);
-
-		swap(nums[i], nums[k - 1]);
-	}
-}

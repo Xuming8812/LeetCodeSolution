@@ -49,31 +49,31 @@ bool isPalindrome(ListNode* head)
 
 //use O(1) space
 
-bool isPalindrome(ListNode* head)
-{
-	if (head == nullptr)
-	{
-		return false;
-	}
-	//get the middle node of the list
-	ListNode* middle = getMiddle(head);
-
-	//reverse the right half of the list
-	ListNode* current1 = head;
-	ListNode* current2 = reverse(middle);
-
-	while (current1&&current2)
-	{
-		if (current1->val != current2->val)
-		{
-			return false;
-		}
-		current1 = current1->next;
-		current2 = current2->next;
-	}
-
-	return true;
-}
+//bool isPalindrome(ListNode* head)
+//{
+//	if (head == nullptr)
+//	{
+//		return false;
+//	}
+//	//get the middle node of the list
+//	ListNode* middle = getMiddle(head);
+//
+//	//reverse the right half of the list
+//	ListNode* current1 = head;
+//	ListNode* current2 = reverse(middle);
+//
+//	while (current1&&current2)
+//	{
+//		if (current1->val != current2->val)
+//		{
+//			return false;
+//		}
+//		current1 = current1->next;
+//		current2 = current2->next;
+//	}
+//
+//	return true;
+//}
 //get the middle node of the link list by using slow and fast pointer
 ListNode* getMiddle(ListNode* head)
 {
