@@ -129,5 +129,8 @@
     <ClCompile Include="78 Subsets.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="926 Flip String to Monotone Increasing.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
