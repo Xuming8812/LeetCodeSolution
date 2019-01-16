@@ -132,5 +132,8 @@
     <ClCompile Include="926 Flip String to Monotone Increasing.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="845 Longest Mountain in Array.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
