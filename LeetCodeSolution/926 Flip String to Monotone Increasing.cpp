@@ -26,7 +26,7 @@ int minFlipsMonoIncr(string S) {
 	}
 
 	//dp matrix initialization
-	vector<vector<int>> dp(len + 1, vector(2, 0));
+	vector<vector<int>> dp(len + 1, vector<int>(2, 0));
 
 	for (int i = 1; i <= len; i++)
 	{

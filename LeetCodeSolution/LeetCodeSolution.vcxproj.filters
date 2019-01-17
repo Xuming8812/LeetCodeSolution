@@ -138,5 +138,8 @@
     <ClCompile Include="801 Minimum Swaps To Make Sequences Increasing.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="790 Domino and Tromino Tiling.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

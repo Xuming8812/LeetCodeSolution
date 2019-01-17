@@ -26,7 +26,7 @@ int minSwap(vector<int>& A, vector<int>& B) {
 	}
 
 	//initialize the dp matrix
-	vector<vector<int>> dp(len, vector(2, INT_MAX));
+	vector<vector<int>> dp(len, vector<int>(2, INT_MAX));
 
 	dp[0][0] = 0;
 	dp[0][1] = 1;
