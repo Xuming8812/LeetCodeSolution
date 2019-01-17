@@ -159,5 +159,8 @@
     <ClCompile Include="6 ZigZag Conversion.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="8 String to Integer (atoi).cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
