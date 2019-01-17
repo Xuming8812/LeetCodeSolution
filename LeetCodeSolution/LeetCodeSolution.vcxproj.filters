@@ -144,5 +144,8 @@
     <ClCompile Include="160 Intersection of Two Linked Lists.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="2 Add Two Numbers.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
