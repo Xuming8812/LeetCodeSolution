@@ -135,6 +135,7 @@
     <ClCompile Include="303 Range Sum Query - Immutable.cpp" />
     <ClCompile Include="374 Guess Number Higher or Lower.cpp" />
     <ClCompile Include="38 Count and Say.cpp" />
+    <ClCompile Include="4 Median of Two Sorted Arrays.cpp" />
     <ClCompile Include="434 Number of Segments in a String.cpp" />
     <ClCompile Include="438 Find All Anagrams in a String.cpp" />
     <ClCompile Include="441 Arranging Coins.cpp" />
