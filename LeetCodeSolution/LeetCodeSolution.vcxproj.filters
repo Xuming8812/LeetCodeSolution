@@ -147,5 +147,8 @@
     <ClCompile Include="2 Add Two Numbers.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="3 Longest Substring Without Repeating Characters.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
