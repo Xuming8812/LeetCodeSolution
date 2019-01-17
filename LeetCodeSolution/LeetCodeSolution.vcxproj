@@ -145,6 +145,7 @@
     <ClCompile Include="687 Longest Univalue Path.cpp" />
     <ClCompile Include="743 Network Delay Time.cpp" />
     <ClCompile Include="78 Subsets.cpp" />
+    <ClCompile Include="801 Minimum Swaps To Make Sequences Increasing.cpp" />
     <ClCompile Include="840 Magic Squares In Grid.cpp" />
     <ClCompile Include="203 Remove Linked List Elements.cpp" />
     <ClCompile Include="845 Longest Mountain in Array.cpp" />

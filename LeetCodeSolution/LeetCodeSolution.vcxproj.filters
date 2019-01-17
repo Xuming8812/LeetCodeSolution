@@ -135,5 +135,8 @@
     <ClCompile Include="845 Longest Mountain in Array.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="801 Minimum Swaps To Make Sequences Increasing.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
