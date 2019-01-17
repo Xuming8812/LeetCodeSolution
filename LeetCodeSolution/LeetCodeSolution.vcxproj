@@ -120,6 +120,7 @@
     <ClCompile Include="14 Longest Common Prefix.cpp" />
     <ClCompile Include="141 Linked List Cycle.cpp" />
     <ClCompile Include="155 Min Stack.cpp" />
+    <ClCompile Include="160 Intersection of Two Linked Lists.cpp" />
     <ClCompile Include="172 Factorial Trailing Zeroes.cpp" />
     <ClCompile Include="20 Valid Parentheses.cpp" />
     <ClCompile Include="204 Count Primes.cpp" />

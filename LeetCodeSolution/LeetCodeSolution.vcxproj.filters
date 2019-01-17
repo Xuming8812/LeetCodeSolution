@@ -141,5 +141,8 @@
     <ClCompile Include="790 Domino and Tromino Tiling.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="160 Intersection of Two Linked Lists.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
