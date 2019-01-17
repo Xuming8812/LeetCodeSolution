@@ -162,5 +162,8 @@
     <ClCompile Include="8 String to Integer (atoi).cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="10 Regular Expression Matching.cpp">
+      <Filter>Source Files\Hard</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
