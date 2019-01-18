@@ -195,5 +195,8 @@
     <ClCompile Include="24 Swap Nodes in Pairs.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="26 Remove Duplicates from Sorted Array.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

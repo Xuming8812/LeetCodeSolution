@@ -141,6 +141,7 @@
     <ClCompile Include="234 Palindrome Linked List.cpp" />
     <ClCompile Include="24 Swap Nodes in Pairs.cpp" />
     <ClCompile Include="242 Valid Anagram.cpp" />
+    <ClCompile Include="26 Remove Duplicates from Sorted Array.cpp" />
     <ClCompile Include="290 Word Pattern.cpp" />
     <ClCompile Include="3 Longest Substring Without Repeating Characters.cpp" />
     <ClCompile Include="303 Range Sum Query - Immutable.cpp" />
