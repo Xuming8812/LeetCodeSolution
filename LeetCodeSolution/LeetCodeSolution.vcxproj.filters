@@ -186,5 +186,8 @@
     <ClCompile Include="19 Remove Nth Node From End of List.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="21 Merge Two Sorted Lists.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

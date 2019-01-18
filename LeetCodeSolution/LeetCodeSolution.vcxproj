@@ -134,6 +134,7 @@
     <ClCompile Include="20 Valid Parentheses.cpp" />
     <ClCompile Include="204 Count Primes.cpp" />
     <ClCompile Include="205 Isomorphic Strings.cpp" />
+    <ClCompile Include="21 Merge Two Sorted Lists.cpp" />
     <ClCompile Include="219 Contains Duplicate II.cpp" />
     <ClCompile Include="225 Implement Stack using Queues.cpp" />
     <ClCompile Include="234 Palindrome Linked List.cpp" />
