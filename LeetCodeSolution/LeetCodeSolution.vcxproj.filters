@@ -201,5 +201,8 @@
     <ClCompile Include="27 Remove Element.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="28 Implement strStr().cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
