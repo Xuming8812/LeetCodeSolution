@@ -183,5 +183,8 @@
     <ClCompile Include="18 4Sum.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="19 Remove Nth Node From End of List.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
