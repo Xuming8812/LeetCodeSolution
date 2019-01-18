@@ -139,6 +139,7 @@
     <ClCompile Include="22 Generate Parentheses.cpp" />
     <ClCompile Include="225 Implement Stack using Queues.cpp" />
     <ClCompile Include="234 Palindrome Linked List.cpp" />
+    <ClCompile Include="24 Swap Nodes in Pairs.cpp" />
     <ClCompile Include="242 Valid Anagram.cpp" />
     <ClCompile Include="290 Word Pattern.cpp" />
     <ClCompile Include="3 Longest Substring Without Repeating Characters.cpp" />

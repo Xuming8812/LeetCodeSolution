@@ -192,5 +192,8 @@
     <ClCompile Include="22 Generate Parentheses.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="24 Swap Nodes in Pairs.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
