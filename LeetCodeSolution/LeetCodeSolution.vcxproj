@@ -122,6 +122,7 @@
     <ClCompile Include="13 Roman to Integer.cpp" />
     <ClCompile Include="14 Longest Common Prefix.cpp" />
     <ClCompile Include="141 Linked List Cycle.cpp" />
+    <ClCompile Include="15 3Sum.cpp" />
     <ClCompile Include="155 Min Stack.cpp" />
     <ClCompile Include="160 Intersection of Two Linked Lists.cpp" />
     <ClCompile Include="172 Factorial Trailing Zeroes.cpp" />
