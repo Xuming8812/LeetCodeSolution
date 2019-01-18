@@ -189,5 +189,8 @@
     <ClCompile Include="21 Merge Two Sorted Lists.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="22 Generate Parentheses.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
