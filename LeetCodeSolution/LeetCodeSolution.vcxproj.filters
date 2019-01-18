@@ -174,5 +174,11 @@
     <ClCompile Include="15 3Sum.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="16 3Sum Closest.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
+    <ClCompile Include="17 Letter Combinations of a Phone Number.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -124,7 +124,9 @@
     <ClCompile Include="141 Linked List Cycle.cpp" />
     <ClCompile Include="15 3Sum.cpp" />
     <ClCompile Include="155 Min Stack.cpp" />
+    <ClCompile Include="16 3Sum Closest.cpp" />
     <ClCompile Include="160 Intersection of Two Linked Lists.cpp" />
+    <ClCompile Include="17 Letter Combinations of a Phone Number.cpp" />
     <ClCompile Include="172 Factorial Trailing Zeroes.cpp" />
     <ClCompile Include="2 Add Two Numbers.cpp" />
     <ClCompile Include="20 Valid Parentheses.cpp" />
