@@ -207,5 +207,8 @@
     <ClCompile Include="34 Find First and Last Position of Element in Sorted Array.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="33 Search in Rotated Sorted Array.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
