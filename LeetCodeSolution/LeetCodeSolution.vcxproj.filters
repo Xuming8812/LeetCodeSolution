@@ -243,5 +243,8 @@
     <ClCompile Include="52 N-Queens II.cpp">
       <Filter>Source Files\Hard</Filter>
     </ClCompile>
+    <ClCompile Include="53 Maximum Subarray.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
