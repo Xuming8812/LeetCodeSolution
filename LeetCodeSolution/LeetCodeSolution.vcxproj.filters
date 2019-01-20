@@ -246,5 +246,8 @@
     <ClCompile Include="53 Maximum Subarray.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="54 Spiral Matrix.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
