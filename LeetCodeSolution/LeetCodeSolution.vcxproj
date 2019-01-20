@@ -162,6 +162,7 @@
     <ClCompile Include="443 String Compression.cpp" />
     <ClCompile Include="46 Permutations.cpp" />
     <ClCompile Include="47 Permutations II.cpp" />
+    <ClCompile Include="48 Rotate Image.cpp" />
     <ClCompile Include="501 Find Mode in Binary Search Tree.cpp" />
     <ClCompile Include="558 Quad Tree Intersection.cpp" />
     <ClCompile Include="58 Length of Last Word.cpp" />
