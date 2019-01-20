@@ -240,5 +240,8 @@
     <ClCompile Include="51 N-Queens.cpp">
       <Filter>Source Files\Hard</Filter>
     </ClCompile>
+    <ClCompile Include="52 N-Queens II.cpp">
+      <Filter>Source Files\Hard</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
