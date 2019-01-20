@@ -231,5 +231,8 @@
     <ClCompile Include="48 Rotate Image.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="49 Group Anagrams.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
