@@ -234,5 +234,8 @@
     <ClCompile Include="49 Group Anagrams.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="50 Pow(x, n).cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
