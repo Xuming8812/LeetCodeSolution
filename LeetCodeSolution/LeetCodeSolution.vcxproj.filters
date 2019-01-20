@@ -237,5 +237,8 @@
     <ClCompile Include="50 Pow(x, n).cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="51 N-Queens.cpp">
+      <Filter>Source Files\Hard</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
