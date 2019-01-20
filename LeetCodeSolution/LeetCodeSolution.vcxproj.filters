@@ -219,5 +219,11 @@
     <ClCompile Include="39 Combination Sum.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="40 Combination Sum II.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
+    <ClCompile Include="46 Permutations.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -155,10 +155,12 @@
     <ClCompile Include="38 Count and Say.cpp" />
     <ClCompile Include="39 Combination Sum.cpp" />
     <ClCompile Include="4 Median of Two Sorted Arrays.cpp" />
+    <ClCompile Include="40 Combination Sum II.cpp" />
     <ClCompile Include="434 Number of Segments in a String.cpp" />
     <ClCompile Include="438 Find All Anagrams in a String.cpp" />
     <ClCompile Include="441 Arranging Coins.cpp" />
     <ClCompile Include="443 String Compression.cpp" />
+    <ClCompile Include="46 Permutations.cpp" />
     <ClCompile Include="501 Find Mode in Binary Search Tree.cpp" />
     <ClCompile Include="558 Quad Tree Intersection.cpp" />
     <ClCompile Include="58 Length of Last Word.cpp" />
