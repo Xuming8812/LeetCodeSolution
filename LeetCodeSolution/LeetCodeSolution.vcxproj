@@ -153,6 +153,7 @@
     <ClCompile Include="36 Valid Sudoku.cpp" />
     <ClCompile Include="374 Guess Number Higher or Lower.cpp" />
     <ClCompile Include="38 Count and Say.cpp" />
+    <ClCompile Include="39 Combination Sum.cpp" />
     <ClCompile Include="4 Median of Two Sorted Arrays.cpp" />
     <ClCompile Include="434 Number of Segments in a String.cpp" />
     <ClCompile Include="438 Find All Anagrams in a String.cpp" />
