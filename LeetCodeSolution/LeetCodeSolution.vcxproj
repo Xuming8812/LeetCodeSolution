@@ -173,6 +173,7 @@
     <ClCompile Include="55 Jump Game.cpp" />
     <ClCompile Include="558 Quad Tree Intersection.cpp" />
     <ClCompile Include="58 Length of Last Word.cpp" />
+    <ClCompile Include="59 Spiral Matrix II.cpp" />
     <ClCompile Include="6 ZigZag Conversion.cpp" />
     <ClCompile Include="643 Maximum Average Subarray I.cpp" />
     <ClCompile Include="67 Add Binary.cpp" />
