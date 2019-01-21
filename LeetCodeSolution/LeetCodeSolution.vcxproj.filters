@@ -249,5 +249,11 @@
     <ClCompile Include="54 Spiral Matrix.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="56 Merge Intervals.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
+    <ClCompile Include="55 Jump Game.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
