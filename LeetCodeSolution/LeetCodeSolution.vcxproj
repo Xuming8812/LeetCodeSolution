@@ -177,6 +177,7 @@
     <ClCompile Include="6 ZigZag Conversion.cpp" />
     <ClCompile Include="60 Permutation Sequence.cpp" />
     <ClCompile Include="61 Rotate List.cpp" />
+    <ClCompile Include="63 Unique Paths II.cpp" />
     <ClCompile Include="643 Maximum Average Subarray I.cpp" />
     <ClCompile Include="67 Add Binary.cpp" />
     <ClCompile Include="680 Valid Palindrome II.cpp" />
