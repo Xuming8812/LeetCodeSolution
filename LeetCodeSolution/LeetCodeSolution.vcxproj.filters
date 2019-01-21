@@ -258,5 +258,8 @@
     <ClCompile Include="59 Spiral Matrix II.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="61 Rotate List.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
