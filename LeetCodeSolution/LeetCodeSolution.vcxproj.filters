@@ -261,5 +261,8 @@
     <ClCompile Include="61 Rotate List.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="60 Permutation Sequence.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
