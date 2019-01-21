@@ -187,6 +187,7 @@
     <ClCompile Include="69 Sqrt(x).cpp" />
     <ClCompile Include="70 Climbing Stairs.cpp" />
     <ClCompile Include="71 Simplify Path.cpp" />
+    <ClCompile Include="72 Edit Distance.cpp" />
     <ClCompile Include="743 Network Delay Time.cpp" />
     <ClCompile Include="78 Subsets.cpp" />
     <ClCompile Include="790 Domino and Tromino Tiling.cpp" />
