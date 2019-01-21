@@ -180,6 +180,7 @@
     <ClCompile Include="63 Unique Paths II.cpp" />
     <ClCompile Include="64 Minimum Path Sum.cpp" />
     <ClCompile Include="643 Maximum Average Subarray I.cpp" />
+    <ClCompile Include="66 Plus One.cpp" />
     <ClCompile Include="67 Add Binary.cpp" />
     <ClCompile Include="680 Valid Palindrome II.cpp" />
     <ClCompile Include="687 Longest Univalue Path.cpp" />
