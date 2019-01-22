@@ -189,6 +189,7 @@
     <ClCompile Include="71 Simplify Path.cpp" />
     <ClCompile Include="72 Edit Distance.cpp" />
     <ClCompile Include="73 Set Matrix Zeroes.cpp" />
+    <ClCompile Include="74 Search a 2D Matrix.cpp" />
     <ClCompile Include="743 Network Delay Time.cpp" />
     <ClCompile Include="78 Subsets.cpp" />
     <ClCompile Include="790 Domino and Tromino Tiling.cpp" />
