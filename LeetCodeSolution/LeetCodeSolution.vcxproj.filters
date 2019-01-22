@@ -303,6 +303,9 @@
     <ClCompile Include="81 Search in Rotated Sorted Array II.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="82 Remove Duplicates from Sorted List II.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
