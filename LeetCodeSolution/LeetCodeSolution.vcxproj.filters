@@ -294,6 +294,9 @@
     <ClCompile Include="75 Sort Colors.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="77 Combinations.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">

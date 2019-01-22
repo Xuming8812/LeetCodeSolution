@@ -192,6 +192,7 @@
     <ClCompile Include="74 Search a 2D Matrix.cpp" />
     <ClCompile Include="743 Network Delay Time.cpp" />
     <ClCompile Include="75 Sort Colors.cpp" />
+    <ClCompile Include="77 Combinations.cpp" />
     <ClCompile Include="78 Subsets.cpp" />
     <ClCompile Include="790 Domino and Tromino Tiling.cpp" />
     <ClCompile Include="8 String to Integer (atoi).cpp" />
