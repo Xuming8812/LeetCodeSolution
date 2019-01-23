@@ -212,9 +212,11 @@
     <ClCompile Include="914 X of a Kind in a Deck of Cards.cpp" />
     <ClCompile Include="92 Reverse Linked List II.cpp" />
     <ClCompile Include="926 Flip String to Monotone Increasing.cpp" />
+    <ClCompile Include="94 Binary Tree Inorder Traversal.cpp" />
     <ClCompile Include="941 Valid Mountain Array.cpp" />
     <ClCompile Include="949 Largest Time for Given Digits.cpp" />
     <ClCompile Include="56 Merge Intervals.cpp" />
+    <ClCompile Include="93 Restore IP Addresses.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp" />
