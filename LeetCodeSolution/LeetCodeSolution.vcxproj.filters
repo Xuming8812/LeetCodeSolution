@@ -330,6 +330,9 @@
     <ClCompile Include="94 Binary Tree Inorder Traversal.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="95 Unique Binary Search Trees II.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">

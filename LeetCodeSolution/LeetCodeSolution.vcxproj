@@ -217,6 +217,7 @@
     <ClCompile Include="949 Largest Time for Given Digits.cpp" />
     <ClCompile Include="56 Merge Intervals.cpp" />
     <ClCompile Include="93 Restore IP Addresses.cpp" />
+    <ClCompile Include="95 Unique Binary Search Trees II.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp" />
