@@ -351,6 +351,9 @@
     <ClCompile Include="102 Binary Tree Level Order Traversal.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="103 Binary Tree Zigzag Level Order Traversal.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
