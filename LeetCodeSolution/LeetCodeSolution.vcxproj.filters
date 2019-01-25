@@ -396,6 +396,9 @@
     <ClCompile Include="121 Best Time to Buy and Sell Stock.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="125 Valid Palindrome.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
