@@ -372,6 +372,9 @@
     <ClCompile Include="109 Convert Sorted List to Binary Search Tree.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="110 Balanced Binary Tree.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
