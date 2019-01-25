@@ -138,6 +138,7 @@
     <ClCompile Include="120 Triangle.cpp" />
     <ClCompile Include="121 Best Time to Buy and Sell Stock.cpp" />
     <ClCompile Include="125 Valid Palindrome.cpp" />
+    <ClCompile Include="128 Longest Consecutive Sequence.cpp" />
     <ClCompile Include="13 Roman to Integer.cpp" />
     <ClCompile Include="14 Longest Common Prefix.cpp" />
     <ClCompile Include="141 Linked List Cycle.cpp" />

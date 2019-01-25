@@ -399,6 +399,9 @@
     <ClCompile Include="125 Valid Palindrome.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="128 Longest Consecutive Sequence.cpp">
+      <Filter>Source Files\Hard</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
