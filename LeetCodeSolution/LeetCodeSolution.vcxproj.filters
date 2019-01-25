@@ -402,6 +402,9 @@
     <ClCompile Include="128 Longest Consecutive Sequence.cpp">
       <Filter>Source Files\Hard</Filter>
     </ClCompile>
+    <ClCompile Include="129 Sum Root to Leaf Numbers.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
