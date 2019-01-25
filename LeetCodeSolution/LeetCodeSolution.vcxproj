@@ -132,6 +132,7 @@
     <ClCompile Include="113 Path Sum II.cpp" />
     <ClCompile Include="114 Flatten Binary Tree to Linked List.cpp" />
     <ClCompile Include="116 Populating Next Right Pointers in Each Node.cpp" />
+    <ClCompile Include="118 Pascal%27s Triangle.cpp" />
     <ClCompile Include="12 Integer to Roman.cpp" />
     <ClCompile Include="13 Roman to Integer.cpp" />
     <ClCompile Include="14 Longest Common Prefix.cpp" />

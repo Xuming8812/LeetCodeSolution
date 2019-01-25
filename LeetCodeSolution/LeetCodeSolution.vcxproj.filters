@@ -384,6 +384,9 @@
     <ClCompile Include="116 Populating Next Right Pointers in Each Node.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="118 Pascal%27s Triangle.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
