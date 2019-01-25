@@ -141,6 +141,7 @@
     <ClCompile Include="128 Longest Consecutive Sequence.cpp" />
     <ClCompile Include="129 Sum Root to Leaf Numbers.cpp" />
     <ClCompile Include="13 Roman to Integer.cpp" />
+    <ClCompile Include="130 Surrounded Regions.cpp" />
     <ClCompile Include="14 Longest Common Prefix.cpp" />
     <ClCompile Include="141 Linked List Cycle.cpp" />
     <ClCompile Include="15 3Sum.cpp" />

@@ -405,6 +405,9 @@
     <ClCompile Include="129 Sum Root to Leaf Numbers.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="130 Surrounded Regions.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
