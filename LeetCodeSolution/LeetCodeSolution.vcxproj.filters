@@ -381,6 +381,9 @@
     <ClCompile Include="114 Flatten Binary Tree to Linked List.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="116 Populating Next Right Pointers in Each Node.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
