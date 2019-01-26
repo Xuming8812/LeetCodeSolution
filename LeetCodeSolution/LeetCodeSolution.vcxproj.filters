@@ -408,6 +408,9 @@
     <ClCompile Include="130 Surrounded Regions.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="131 Palindrome Partitioning.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
