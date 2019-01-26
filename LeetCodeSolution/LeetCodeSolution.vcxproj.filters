@@ -414,6 +414,12 @@
     <ClCompile Include="134 Gas Station.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="135 Candy.cpp">
+      <Filter>Source Files\Hard</Filter>
+    </ClCompile>
+    <ClCompile Include="136 Single Number.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
