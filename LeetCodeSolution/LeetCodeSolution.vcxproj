@@ -148,6 +148,8 @@
     <ClCompile Include="134 Gas Station.cpp" />
     <ClCompile Include="135 Candy.cpp" />
     <ClCompile Include="136 Single Number.cpp" />
+    <ClCompile Include="138 Copy List with Random Pointer.cpp" />
+    <ClCompile Include="139 Word Break.cpp" />
     <ClCompile Include="14 Longest Common Prefix.cpp" />
     <ClCompile Include="141 Linked List Cycle.cpp" />
     <ClCompile Include="15 3Sum.cpp" />
