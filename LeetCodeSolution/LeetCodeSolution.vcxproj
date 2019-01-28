@@ -151,6 +151,7 @@
     <ClCompile Include="138 Copy List with Random Pointer.cpp" />
     <ClCompile Include="139 Word Break.cpp" />
     <ClCompile Include="14 Longest Common Prefix.cpp" />
+    <ClCompile Include="140 Word Break II.cpp" />
     <ClCompile Include="141 Linked List Cycle.cpp" />
     <ClCompile Include="15 3Sum.cpp" />
     <ClCompile Include="155 Min Stack.cpp" />
