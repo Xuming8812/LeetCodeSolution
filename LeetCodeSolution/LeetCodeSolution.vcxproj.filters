@@ -423,6 +423,9 @@
     <ClCompile Include="122 Best Time to Buy and Sell Stock II.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="133 Clone Graph.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
