@@ -139,6 +139,7 @@
     <ClCompile Include="121 Best Time to Buy and Sell Stock.cpp" />
     <ClCompile Include="122 Best Time to Buy and Sell Stock II.cpp" />
     <ClCompile Include="125 Valid Palindrome.cpp" />
+    <ClCompile Include="127 Word Ladder.cpp" />
     <ClCompile Include="128 Longest Consecutive Sequence.cpp" />
     <ClCompile Include="129 Sum Root to Leaf Numbers.cpp" />
     <ClCompile Include="13 Roman to Integer.cpp" />
