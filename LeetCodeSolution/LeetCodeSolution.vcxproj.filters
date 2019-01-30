@@ -468,6 +468,9 @@
     <ClCompile Include="165 Compare Version Numbers.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="164 Maximum Gap.cpp">
+      <Filter>Source Files\Hard</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">

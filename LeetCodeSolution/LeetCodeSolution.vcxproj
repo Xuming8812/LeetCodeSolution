@@ -165,6 +165,7 @@
     <ClCompile Include="16 3Sum Closest.cpp" />
     <ClCompile Include="160 Intersection of Two Linked Lists.cpp" />
     <ClCompile Include="162 Find Peak Element.cpp" />
+    <ClCompile Include="164 Maximum Gap.cpp" />
     <ClCompile Include="165 Compare Version Numbers.cpp" />
     <ClCompile Include="17 Letter Combinations of a Phone Number.cpp" />
     <ClCompile Include="172 Factorial Trailing Zeroes.cpp" />
