@@ -257,6 +257,7 @@
     <ClCompile Include="98 Validate Binary Search Tree.cpp" />
     <ClCompile Include="99 Recover Binary Search Tree.cpp" />
     <ClCompile Include="150 Evaluate Reverse Polish Notation.cpp" />
+    <ClCompile Include="151 Reverse Words in a String.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp" />
