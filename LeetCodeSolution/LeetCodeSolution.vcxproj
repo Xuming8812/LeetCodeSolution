@@ -175,6 +175,7 @@
     <ClCompile Include="172 Factorial Trailing Zeroes.cpp" />
     <ClCompile Include="173 Binary Search Tree Iterator.cpp" />
     <ClCompile Include="174 Dungeon Game.cpp" />
+    <ClCompile Include="179 Largest Number.cpp" />
     <ClCompile Include="18 4Sum.cpp" />
     <ClCompile Include="19 Remove Nth Node From End of List.cpp" />
     <ClCompile Include="2 Add Two Numbers.cpp" />

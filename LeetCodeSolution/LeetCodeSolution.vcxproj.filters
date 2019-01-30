@@ -489,6 +489,9 @@
     <ClCompile Include="174 Dungeon Game.cpp">
       <Filter>Source Files\Hard</Filter>
     </ClCompile>
+    <ClCompile Include="179 Largest Number.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
