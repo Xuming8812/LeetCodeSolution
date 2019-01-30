@@ -178,6 +178,7 @@
     <ClCompile Include="179 Largest Number.cpp" />
     <ClCompile Include="18 4Sum.cpp" />
     <ClCompile Include="187 Repeated DNA Sequences.cpp" />
+    <ClCompile Include="189 Rotate Array.cpp" />
     <ClCompile Include="19 Remove Nth Node From End of List.cpp" />
     <ClCompile Include="2 Add Two Numbers.cpp" />
     <ClCompile Include="20 Valid Parentheses.cpp" />
