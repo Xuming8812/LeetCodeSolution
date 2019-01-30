@@ -158,6 +158,7 @@
     <ClCompile Include="143 Reorder List.cpp" />
     <ClCompile Include="144 Binary Tree Preorder Traversal.cpp" />
     <ClCompile Include="15 3Sum.cpp" />
+    <ClCompile Include="152 Maximum Product Subarray.cpp" />
     <ClCompile Include="155 Min Stack.cpp" />
     <ClCompile Include="16 3Sum Closest.cpp" />
     <ClCompile Include="160 Intersection of Two Linked Lists.cpp" />
