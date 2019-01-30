@@ -486,6 +486,9 @@
     <ClCompile Include="173 Binary Search Tree Iterator.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="174 Dungeon Game.cpp">
+      <Filter>Source Files\Hard</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
