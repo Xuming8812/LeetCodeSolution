@@ -456,6 +456,9 @@
     <ClCompile Include="152 Maximum Product Subarray.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="153 Find Minimum in Rotated Sorted Array.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
