@@ -483,6 +483,9 @@
     <ClCompile Include="171 Excel Sheet Column Number.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="173 Binary Search Tree Iterator.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
