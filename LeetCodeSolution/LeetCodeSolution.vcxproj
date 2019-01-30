@@ -160,6 +160,7 @@
     <ClCompile Include="15 3Sum.cpp" />
     <ClCompile Include="152 Maximum Product Subarray.cpp" />
     <ClCompile Include="153 Find Minimum in Rotated Sorted Array.cpp" />
+    <ClCompile Include="154 Find Minimum in Rotated Sorted Array II.cpp" />
     <ClCompile Include="155 Min Stack.cpp" />
     <ClCompile Include="16 3Sum Closest.cpp" />
     <ClCompile Include="160 Intersection of Two Linked Lists.cpp" />
