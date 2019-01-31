@@ -522,6 +522,9 @@
     <ClCompile Include="208 Implement Trie (Prefix Tree).cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="209 Minimum Size Subarray Sum.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
