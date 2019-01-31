@@ -186,6 +186,7 @@
     <ClCompile Include="199 Binary Tree Right Side View.cpp" />
     <ClCompile Include="2 Add Two Numbers.cpp" />
     <ClCompile Include="20 Valid Parentheses.cpp" />
+    <ClCompile Include="200 Number of Islands.cpp" />
     <ClCompile Include="204 Count Primes.cpp" />
     <ClCompile Include="205 Isomorphic Strings.cpp" />
     <ClCompile Include="21 Merge Two Sorted Lists.cpp" />
