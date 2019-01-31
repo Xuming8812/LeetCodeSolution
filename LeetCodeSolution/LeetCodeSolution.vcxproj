@@ -182,6 +182,7 @@
     <ClCompile Include="19 Remove Nth Node From End of List.cpp" />
     <ClCompile Include="190 Reverse Bits.cpp" />
     <ClCompile Include="191 Number of 1 Bits.cpp" />
+    <ClCompile Include="198 House Robber.cpp" />
     <ClCompile Include="2 Add Two Numbers.cpp" />
     <ClCompile Include="20 Valid Parentheses.cpp" />
     <ClCompile Include="204 Count Primes.cpp" />
