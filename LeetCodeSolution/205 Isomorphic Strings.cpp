@@ -1,5 +1,11 @@
+#include<vector>
 #include<map>
-#include<algorithm>
+#include<string>
+#include<queue>
+#include<sstream>
+#include<stack>
+#include<set>
+#include<bitset>
 using namespace std;
 
 /*

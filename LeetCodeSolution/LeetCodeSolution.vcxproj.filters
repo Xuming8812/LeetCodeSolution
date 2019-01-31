@@ -516,6 +516,9 @@
     <ClCompile Include="202 Happy Number.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="206 Reverse Linked List.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
