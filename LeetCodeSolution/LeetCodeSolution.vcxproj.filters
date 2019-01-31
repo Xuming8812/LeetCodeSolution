@@ -514,7 +514,7 @@
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
     <ClCompile Include="202 Happy Number.cpp">
-      <Filter>Source Files\Middle</Filter>
+      <Filter>Source Files\Easy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

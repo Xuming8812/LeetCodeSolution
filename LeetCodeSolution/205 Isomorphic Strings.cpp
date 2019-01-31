@@ -11,6 +11,18 @@ All occurrences of a character must be replaced with another character while pre
 No two characters may map to the same character but a character may map to itself.
 
 */
+bool isIsomorphic(string s, string t) {
+	vector<int> dict1(256), dict2(256);
+
+	for (int i = 0; i < s.size(); i++) {
+		if (dict1[s[i]] != dict2[t[i]]) return false;
+
+		dict1[s[i]] = i + 1;
+		dict2[t[i]] = i + 1;
+	}
+
+	return true;
+}
 
 bool isIsomorphic(string s, string t)
 {
