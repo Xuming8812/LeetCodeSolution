@@ -191,6 +191,7 @@
     <ClCompile Include="204 Count Primes.cpp" />
     <ClCompile Include="205 Isomorphic Strings.cpp" />
     <ClCompile Include="206 Reverse Linked List.cpp" />
+    <ClCompile Include="208 Implement Trie (Prefix Tree).cpp" />
     <ClCompile Include="21 Merge Two Sorted Lists.cpp" />
     <ClCompile Include="219 Contains Duplicate II.cpp" />
     <ClCompile Include="22 Generate Parentheses.cpp" />
