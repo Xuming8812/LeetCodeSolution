@@ -534,6 +534,9 @@
     <ClCompile Include="211 Add and Search Word - Data structure design.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="215 Kth Largest Element in an Array.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
