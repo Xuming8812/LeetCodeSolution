@@ -576,6 +576,9 @@
     <ClCompile Include="232 Implement Queue using Stacks.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="235 Lowest Common Ancestor of a Binary Search Tree.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">

@@ -215,6 +215,7 @@
     <ClCompile Include="231 Power of Two.cpp" />
     <ClCompile Include="232 Implement Queue using Stacks.cpp" />
     <ClCompile Include="234 Palindrome Linked List.cpp" />
+    <ClCompile Include="235 Lowest Common Ancestor of a Binary Search Tree.cpp" />
     <ClCompile Include="24 Swap Nodes in Pairs.cpp" />
     <ClCompile Include="242 Valid Anagram.cpp" />
     <ClCompile Include="26 Remove Duplicates from Sorted Array.cpp" />
