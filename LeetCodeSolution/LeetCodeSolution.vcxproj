@@ -210,6 +210,7 @@
     <ClCompile Include="226 Invert Binary Tree.cpp" />
     <ClCompile Include="227 Basic Calculator II.cpp" />
     <ClCompile Include="228 Summary Ranges.cpp" />
+    <ClCompile Include="229 Majority Element II.cpp" />
     <ClCompile Include="234 Palindrome Linked List.cpp" />
     <ClCompile Include="24 Swap Nodes in Pairs.cpp" />
     <ClCompile Include="242 Valid Anagram.cpp" />
