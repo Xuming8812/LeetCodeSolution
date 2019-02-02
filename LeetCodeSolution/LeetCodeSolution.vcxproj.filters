@@ -591,6 +591,9 @@
     <ClCompile Include="239 Sliding Window Maximum.cpp">
       <Filter>Source Files\Hard</Filter>
     </ClCompile>
+    <ClCompile Include="240 Search a 2D Matrix II.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
