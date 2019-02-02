@@ -588,6 +588,9 @@
     <ClCompile Include="238 Product of Array Except Self.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="239 Sliding Window Maximum.cpp">
+      <Filter>Source Files\Hard</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
