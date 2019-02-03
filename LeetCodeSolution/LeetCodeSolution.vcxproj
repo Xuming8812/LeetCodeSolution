@@ -228,6 +228,7 @@
     <ClCompile Include="258 Add Digits.cpp" />
     <ClCompile Include="26 Remove Duplicates from Sorted Array.cpp" />
     <ClCompile Include="260 Single Number III.cpp" />
+    <ClCompile Include="263 Ugly Number.cpp" />
     <ClCompile Include="27 Remove Element.cpp" />
     <ClCompile Include="28 Implement strStr().cpp" />
     <ClCompile Include="290 Word Pattern.cpp" />
