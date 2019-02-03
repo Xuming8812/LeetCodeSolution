@@ -582,9 +582,6 @@
     <ClCompile Include="236 Lowest Common Ancestor of a Binary Tree.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
-    <ClCompile Include="237 Delete Node in a Linked List.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="238 Product of Array Except Self.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
@@ -593,6 +590,15 @@
     </ClCompile>
     <ClCompile Include="240 Search a 2D Matrix II.cpp">
       <Filter>Source Files\Middle</Filter>
+    </ClCompile>
+    <ClCompile Include="237 Delete Node in a Linked List.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
+    <ClCompile Include="241 Different Ways to Add Parentheses.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
+    <ClCompile Include="257 Binary Tree Paths.cpp">
+      <Filter>Source Files\Easy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
