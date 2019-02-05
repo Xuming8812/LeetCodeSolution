@@ -244,6 +244,7 @@
     <ClCompile Include="295 Find Median from Data Stream.cpp" />
     <ClCompile Include="299 Bulls and Cows.cpp" />
     <ClCompile Include="3 Longest Substring Without Repeating Characters.cpp" />
+    <ClCompile Include="300 Longest Increasing Subsequence.cpp" />
     <ClCompile Include="303 Range Sum Query - Immutable.cpp" />
     <ClCompile Include="33 Search in Rotated Sorted Array.cpp" />
     <ClCompile Include="34 Find First and Last Position of Element in Sorted Array.cpp" />
