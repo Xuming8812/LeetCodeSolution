@@ -645,6 +645,9 @@
     <ClCompile Include="300 Longest Increasing Subsequence.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="304 Range Sum Query 2D - Immutable.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
