@@ -234,6 +234,7 @@
     <ClCompile Include="27 Remove Element.cpp" />
     <ClCompile Include="274 H-Index.cpp" />
     <ClCompile Include="278 First Bad Version.cpp" />
+    <ClCompile Include="279 Perfect Squares.cpp" />
     <ClCompile Include="28 Implement strStr().cpp" />
     <ClCompile Include="290 Word Pattern.cpp" />
     <ClCompile Include="3 Longest Substring Without Repeating Characters.cpp" />
