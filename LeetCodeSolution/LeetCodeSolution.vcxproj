@@ -238,6 +238,7 @@
     <ClCompile Include="28 Implement strStr().cpp" />
     <ClCompile Include="283 Move Zeroes.cpp" />
     <ClCompile Include="287 Find the Duplicate Number.cpp" />
+    <ClCompile Include="289 Game of Life.cpp" />
     <ClCompile Include="290 Word Pattern.cpp" />
     <ClCompile Include="3 Longest Substring Without Repeating Characters.cpp" />
     <ClCompile Include="303 Range Sum Query - Immutable.cpp" />
