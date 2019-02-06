@@ -669,6 +669,9 @@
     <ClCompile Include="319 Bulb Switcher.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="322 Coin Change.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
