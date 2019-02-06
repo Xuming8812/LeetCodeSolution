@@ -249,6 +249,7 @@
     <ClCompile Include="304 Range Sum Query 2D - Immutable.cpp" />
     <ClCompile Include="307 Range Sum Query - Mutable.cpp" />
     <ClCompile Include="309 Best Time to Buy and Sell Stock with Cooldown.cpp" />
+    <ClCompile Include="310 Minimum Height Trees.cpp" />
     <ClCompile Include="33 Search in Rotated Sorted Array.cpp" />
     <ClCompile Include="34 Find First and Last Position of Element in Sorted Array.cpp" />
     <ClCompile Include="35 Search Insert Position.cpp" />
