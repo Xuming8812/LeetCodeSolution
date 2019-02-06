@@ -663,6 +663,9 @@
     <ClCompile Include="316 Remove Duplicate Letters.cpp">
       <Filter>Source Files\Hard</Filter>
     </ClCompile>
+    <ClCompile Include="318 Maximum Product of Word Lengths.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">

@@ -252,6 +252,7 @@
     <ClCompile Include="310 Minimum Height Trees.cpp" />
     <ClCompile Include="313 Super Ugly Number.cpp" />
     <ClCompile Include="316 Remove Duplicate Letters.cpp" />
+    <ClCompile Include="318 Maximum Product of Word Lengths.cpp" />
     <ClCompile Include="33 Search in Rotated Sorted Array.cpp" />
     <ClCompile Include="34 Find First and Last Position of Element in Sorted Array.cpp" />
     <ClCompile Include="35 Search Insert Position.cpp" />
