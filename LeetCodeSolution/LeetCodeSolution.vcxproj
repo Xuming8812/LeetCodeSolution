@@ -262,6 +262,7 @@
     <ClCompile Include="33 Search in Rotated Sorted Array.cpp" />
     <ClCompile Include="331 Verify Preorder Serialization of a Binary Tree.cpp" />
     <ClCompile Include="334 Increasing Triplet Subsequence.cpp" />
+    <ClCompile Include="338 Counting Bits.cpp" />
     <ClCompile Include="34 Find First and Last Position of Element in Sorted Array.cpp" />
     <ClCompile Include="35 Search Insert Position.cpp" />
     <ClCompile Include="36 Valid Sudoku.cpp" />
