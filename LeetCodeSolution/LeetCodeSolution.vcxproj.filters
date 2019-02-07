@@ -681,6 +681,12 @@
     <ClCompile Include="328 Odd Even Linked List.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="329 Longest Increasing Path in a Matrix.cpp">
+      <Filter>Source Files\Hard</Filter>
+    </ClCompile>
+    <ClCompile Include="331 Verify Preorder Serialization of a Binary Tree.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
