@@ -255,6 +255,7 @@
     <ClCompile Include="318 Maximum Product of Word Lengths.cpp" />
     <ClCompile Include="319 Bulb Switcher.cpp" />
     <ClCompile Include="322 Coin Change.cpp" />
+    <ClCompile Include="324 Wiggle Sort II.cpp" />
     <ClCompile Include="33 Search in Rotated Sorted Array.cpp" />
     <ClCompile Include="34 Find First and Last Position of Element in Sorted Array.cpp" />
     <ClCompile Include="35 Search Insert Position.cpp" />
