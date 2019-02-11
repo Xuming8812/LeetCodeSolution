@@ -264,6 +264,7 @@
     <ClCompile Include="334 Increasing Triplet Subsequence.cpp" />
     <ClCompile Include="338 Counting Bits.cpp" />
     <ClCompile Include="34 Find First and Last Position of Element in Sorted Array.cpp" />
+    <ClCompile Include="342 Power of Four.cpp" />
     <ClCompile Include="35 Search Insert Position.cpp" />
     <ClCompile Include="36 Valid Sudoku.cpp" />
     <ClCompile Include="374 Guess Number Higher or Lower.cpp" />
