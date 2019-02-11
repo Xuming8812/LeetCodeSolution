@@ -269,6 +269,7 @@
     <ClCompile Include="343 Integer Break.cpp" />
     <ClCompile Include="344 Reverse String.cpp" />
     <ClCompile Include="345 Reverse Vowels of a String.cpp" />
+    <ClCompile Include="347 Top K Frequent Elements.cpp" />
     <ClCompile Include="35 Search Insert Position.cpp" />
     <ClCompile Include="36 Valid Sudoku.cpp" />
     <ClCompile Include="374 Guess Number Higher or Lower.cpp" />
