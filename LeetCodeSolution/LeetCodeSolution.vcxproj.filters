@@ -720,6 +720,9 @@
     <ClCompile Include="357 Count Numbers with Unique Digits.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="365 Water and Jug Problem.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
