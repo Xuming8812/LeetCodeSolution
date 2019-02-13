@@ -714,6 +714,9 @@
     <ClCompile Include="349 Intersection of Two Arrays.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="350 Intersection of Two Arrays II.cpp">
+      <Filter>Source Files\Easy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
