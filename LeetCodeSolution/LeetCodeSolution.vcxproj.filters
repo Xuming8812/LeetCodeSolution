@@ -729,6 +729,9 @@
     <ClCompile Include="372 Super Pow.cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="373 Find K Pairs with Smallest Sums.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
