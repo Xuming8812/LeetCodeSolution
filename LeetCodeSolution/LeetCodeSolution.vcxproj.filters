@@ -747,6 +747,9 @@
     <ClCompile Include="380 Insert Delete GetRandom O(1).cpp">
       <Filter>Source Files\Middle</Filter>
     </ClCompile>
+    <ClCompile Include="382 Linked List Random Node.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
