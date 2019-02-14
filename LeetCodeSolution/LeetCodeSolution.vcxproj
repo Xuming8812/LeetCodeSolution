@@ -277,6 +277,7 @@
     <ClCompile Include="36 Valid Sudoku.cpp" />
     <ClCompile Include="365 Water and Jug Problem.cpp" />
     <ClCompile Include="367 Valid Perfect Square.cpp" />
+    <ClCompile Include="368 Largest Divisible Subset.cpp" />
     <ClCompile Include="372 Super Pow.cpp" />
     <ClCompile Include="373 Find K Pairs with Smallest Sums.cpp" />
     <ClCompile Include="374 Guess Number Higher or Lower.cpp" />
