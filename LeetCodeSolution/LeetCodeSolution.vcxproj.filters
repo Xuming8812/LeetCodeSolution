@@ -753,6 +753,9 @@
     <ClCompile Include="383 Ransom Note.cpp">
       <Filter>Source Files\Easy</Filter>
     </ClCompile>
+    <ClCompile Include="384 Shuffle an Array.cpp">
+      <Filter>Source Files\Middle</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="62.Unique Paths.cpp">
