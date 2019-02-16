@@ -296,6 +296,7 @@
     <ClCompile Include="392 Is Subsequence.cpp" />
     <ClCompile Include="396 Rotate Function.cpp" />
     <ClCompile Include="397 Integer Replacement.cpp" />
+    <ClCompile Include="398 Random Pick Index.cpp" />
     <ClCompile Include="4 Median of Two Sorted Arrays.cpp" />
     <ClCompile Include="40 Combination Sum II.cpp" />
     <ClCompile Include="434 Number of Segments in a String.cpp" />
