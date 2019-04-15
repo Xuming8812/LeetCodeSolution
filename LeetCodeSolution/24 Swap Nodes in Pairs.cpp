@@ -44,3 +44,24 @@ ListNode* swapPairs(ListNode* head) {
 
 	return result;
 }
+
+// the recursive version
+ListNode* swapPairs(ListNode* head) {
+	//base condition
+	if (head == nullptr || head->next == nullptr) {
+		return head;
+	}
+
+	//switch the first two
+	ListNode * firstNode = head;
+	ListNode * secondNode = head->next;
+	ListNode * result = secondNode;
+
+	firstNode->next = secondNode->next;
+	secondNode->next = firstNode;
+
+	//call this function recursively to deal with other nodes
+	firstNode->next = swapPairs(firstNode->next);
+
+	return result;
+}
