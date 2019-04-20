@@ -10,7 +10,7 @@
 using namespace std;
 
 /*
-Given an array of integers, find two numbers such that they add up to a specific target number.
+Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.
 */
 
 
