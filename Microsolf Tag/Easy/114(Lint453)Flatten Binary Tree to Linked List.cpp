@@ -47,6 +47,7 @@ void flatten(TreeNode * root) {
 TreeNode* last{nullptr};
 
 
+//second version
 void flatten(TreeNode* root) {
     
     if(root == nullptr) return;
