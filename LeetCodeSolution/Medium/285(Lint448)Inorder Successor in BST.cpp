@@ -18,8 +18,9 @@ public:
 };
 
 /*
-Given a binary tree, return the zigzag level order traversal of its nodes' values. 
-(ie, from left to right, then right to left for the next level and alternate between).
+Given a binary search tree (See Definition) and a node in it, find the in-order successor of that node in the BST.
+
+If the given node has no in-order successor in the tree, return null.
 */
 
 
@@ -31,26 +32,21 @@ Given a binary tree, return the zigzag level order traversal of its nodes' value
 TreeNode * inorderSuccessor(TreeNode * root, TreeNode * p) {
     // write your code here
     
-    if(root == nullptr || p == nullptr)
-    {
+    if(root == nullptr || p == nullptr){
         return nullptr;
     }
     
-    if(p->val >= root->val)
-    {
+    if(p->val >= root->val){
         return inorderSuccessor(root->right,p);
     }
     
-    if(p->val < root->val)
-    {
+    if(p->val < root->val){
         TreeNode * leftResult = inorderSuccessor(root->left,p);
         
-        if(leftResult)
-        {
+        if(leftResult){
             return leftResult;
         }
-        else
-        {
+        else{
             return root;
         }
     }
