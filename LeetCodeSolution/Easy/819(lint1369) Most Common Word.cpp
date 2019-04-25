@@ -26,28 +26,28 @@ string mostCommonWord(string &paragraph, vector<string> &banned) {
     // 
     pair<string,int> result("",0);
     if(paragraph.empty()) return result.first;
-    
+    //turn to lower case
     std::transform(paragraph.begin(), paragraph.end(), paragraph.begin(), ::tolower);
     
+    //turn special char to " "
     for(auto & c : paragraph){
         if(!isLetter(c)){
             c = ' ';
         }
     }
-    
+    //save banned words in a set    
     set<string> bannedDict;
-    
     for(auto word : banned){
         bannedDict.insert(word);
     }
-    
+    //split the paragraph by space
     vector<string> words = split(paragraph);
     
-
-    
+    //count numbers of words
     map<string,int>dict;
     
     for(auto item : words){
+        //if the word is not banned
         if(bannedDict.find(item)==bannedDict.end()){
             dict[item]++;
             if(dict[item]>result.second){
@@ -60,7 +60,7 @@ string mostCommonWord(string &paragraph, vector<string> &banned) {
     return result.first;
 }
 
-
+//split the string by space
 vector<string> split(string paragrah){
     vector<string> result;
         
@@ -76,7 +76,7 @@ vector<string> split(string paragrah){
     return result;
     
 }
-
+//check if a char is a letter
 bool isLetter(char input){
     return input>='a' && input<='z';
 }
