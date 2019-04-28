@@ -11,11 +11,8 @@ You are given an n x n 2D matrix representing an image.
 
 Rotate the image by 90 degrees (clockwise).
 */
-void rotate(vector<vector<int>>& matrix) {
-    
-
-    flip(matrix);
-    
+void rotate(vector<vector<int>>& matrix) {   
+    flip(matrix);   
     tranpose(matrix);        
 }
 
