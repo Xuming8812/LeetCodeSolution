@@ -10,9 +10,13 @@
 using namespace std;
 
 /*
-Given an input character array, reverse the array word by word. A word is defined as a sequence of non-space characters.
+Given an array of integers A and let n to be its length.
 
-The input character array does not contain leading or trailing spaces and the words are always separated by a single space.
+Assume Bk to be an array obtained by rotating the array A k positions clock-wise, we define a "rotation function" F on A as follow:
+
+F(k) = 0 * Bk[0] + 1 * Bk[1] + ... + (n-1) * Bk[n-1].
+
+Calculate the maximum value of F(0), F(1), ..., F(n-1).
 */
 
 
