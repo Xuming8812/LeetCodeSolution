@@ -10,7 +10,8 @@
 using namespace std;
 
 /*
-Given a string, count number of subsequences of the form a^i b^j c^ k, i.e., it consists of i a characters, followed by j b characters, followed by k c characters where i >= 1, j >=1 and k >= 1.
+Given a string, count number of subsequences of the form a^i b^j c^ k, i.e., it consists of i a characters, followed by j b characters, 
+followed by k c characters where i >= 1, j >=1 and k >= 1.
 
 Note: Two subsequences are considered different if the set of array indexes picked for the 2 subsequences are different.
 */ 
