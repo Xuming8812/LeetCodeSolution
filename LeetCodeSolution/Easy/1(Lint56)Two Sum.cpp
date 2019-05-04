@@ -5,15 +5,13 @@
 #include<sstream>
 #include<stack>
 #include<set>
+#include<bitset>
 
 using namespace std;
 
 /*
-Given an array of integers, return indices of the two numbers such that they add up to a specific target.
-
-You may assume that each input would have exactly one solution, and you may not use the same element twice
-*/ 
-    
+Given an array of integers, find two numbers such that they add up to a specific target number.
+*/
 
 /**
  * @param numbers: An array of Integer
@@ -23,23 +21,19 @@ You may assume that each input would have exactly one solution, and you may not 
 vector<int> twoSum(vector<int> &numbers, int target) {
     // write your code here
     vector<int> result;
-    
-    if(numbers.size()<2){
-        return result;
-    }
-    
+    //corner case
+    if(numbers.empty()) return {};
+    //use a dict to store the index of each number
     map<int,int>dict;
-    
-    for(int i = 0;i<numbers.size();i++){
+    //one pass
+    for(int i=0;i<numbers.size();i++){
+        //check if the target - current number is already met
         if(dict.find(target-numbers[i])!=dict.end()){
-            result.push_back(dict[target-numbers[i]]);
-            result.push_back(i);
-            
-            return result;
+            return {dict[target-numbers[i]],i};
         }
-        
+        //save the index of current number
         dict[numbers[i]] = i;
     }
-    
+
     return {-1,-1};
 }
