@@ -38,4 +38,3 @@ void mergeSortedArray(int A[], int m, int B[], int n) {
         A[index--] = B[indexB--];
     }
 }
-
