@@ -19,38 +19,35 @@ int numIslands(vector<vector<bool>>& grid) {
 
 	int result{ 0 };
 
-	if (grid.empty())
-	{
+	if (grid.empty()){
 		return result;
 	}
-	
+	//a vector for four directions
 	vector<vector<int>> direction{ {0,1},{0,-1},{1,0},{-1,0} };
-
-	for (int i{ 0 }; i < grid.size(); ++i)
-	{
-		for (int j{ 0 }; j < grid[0].size(); ++j)
-		{
-			if (grid[i][j])
-			{
+	//loop for all positions
+	for (int i{ 0 }; i < grid.size(); ++i){
+		for (int j{ 0 }; j < grid[0].size(); ++j){
+			
+			//if an island is found
+			if (grid[i][j]){
 				result++;
 
+				// insert the current position as the start point
 				stack<vector<int>> store;
 				store.push({ i,j });
-
-				while (!store.empty())
-				{
+				//bfs	
+				while (!store.empty()){
 					vector<int> current = store.top();
 					store.pop();
-
+					//mark the position
 					grid[current[0]][current[1]] = false;
 
-					for (auto item : direction)
-					{
+					//loop all directions
+					for (auto item : direction){
 						int m = current[0] + item[0];
 						int n = current[1] + item[1];
 
-						if (m >= 0 && m < grid.size() && n >= 0 && n < grid[0].size() && grid[m][n])
-						{
+						if (m >= 0 && m < grid.size() && n >= 0 && n < grid[0].size() && grid[m][n]){
 							store.push({ m,n });
 						}
 
@@ -68,12 +65,20 @@ int numIslands(vector<vector<bool>>& grid) {
 
 int numIslands(vector<vector<bool>>& grid) {
     // Write your code here
-    if (grid.empty() || grid[0].empty()) return 0;
+	//corner case
+    if (grid.empty() || grid[0].empty()){
+		return 0;
+	} 
+	//get size of the matrix
     int N = grid.size(), M = grid[0].size();
+	//variable to store the result
     int cnt = 0;
+	//loop for all positions
     for (int i = 0; i < N; ++i) {
         for (int j = 0; j < M; ++j) {
+			//if it`s a part of an island
             if (grid[i][j]) {
+				//dfs to mark the whole island
                 dfs(grid, i, j);
                 ++cnt;
             }
@@ -84,11 +89,18 @@ int numIslands(vector<vector<bool>>& grid) {
 
 void dfs(vector<vector<bool>> &grid, int x, int y) {
     //base condition
-    if (x < 0 || x >= grid.size()) return;
-    if (y < 0 || y >= grid[0].size()) return;
-    if (!grid[x][y]) return;
-    
+    if (x < 0 || x >= grid.size()){
+		return;
+	} 
+    if (y < 0 || y >= grid[0].size()){
+		return;
+	} 
+    if (!grid[x][y]){
+		return;
+	} 
+    //mark the current position
     grid[x][y] = false;
+	//dfs
     dfs(grid, x + 1, y);
     dfs(grid, x - 1, y);
     dfs(grid, x, y + 1);

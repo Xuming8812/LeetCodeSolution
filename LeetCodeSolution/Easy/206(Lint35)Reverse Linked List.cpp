@@ -41,7 +41,6 @@ ListNode * reverse(ListNode * head){
     while(current!=nullptr){
         //store the next node in advance
         ListNode* temp = current->next;
-        //cre
         current->next = previous;
         previous = current;
         current = temp;

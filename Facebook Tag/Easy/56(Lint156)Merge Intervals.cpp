@@ -8,6 +8,9 @@
 #include<bitset>
 
 using namespace std;
+/*
+Given a collection of intervals, merge all overlapping intervals.
+*/
 
 struct Interval {
      int start;
@@ -16,9 +19,7 @@ struct Interval {
      Interval(int s, int e) : start(s), end(e) {}
 };
 
-/*
-Given a collection of intervals, merge all overlapping intervals.
-*/
+
 
 /**
  * @param intervals: interval list.
