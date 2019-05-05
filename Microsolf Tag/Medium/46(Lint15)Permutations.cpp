@@ -66,7 +66,7 @@ void permuteHelper(vector<int>& nums, vector<int> chosen){
         if(pos == chosen.end()){
             chosen.push_back(nums[i]);          //choose
         
-            permuteHelper(nums, chosen);        //choose
+            permuteHelper(nums, chosen);        //explpre
 
             chosen.pop_back();                  //unchoose
         }

@@ -30,17 +30,19 @@ class TreeNode {
 vector<vector<int>> levelOrder(TreeNode * root) {
     // write your code here
     vector<vector<int>> result;
+    //corner case
     if(root == nullptr){
         return result;
     }
-    
+    //bfs
     queue<TreeNode*> bfs;
     bfs.push(root);
     
     while(!bfs.empty()){
+        //get the size of the queue, which is the length of current level
         int nums = bfs.size();
         vector<int> temp;
-        
+        //pop and save all nodes in this level, and push their children into the queue if exist
         for(int i = 0;i<nums;i++){
             TreeNode* current = bfs.front();
             bfs.pop();
