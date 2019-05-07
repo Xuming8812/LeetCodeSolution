@@ -15,6 +15,9 @@ class TreeNode {
             this->left = this->right = NULL;
         }
 };
+
+
+
 /**
  * @param root: the root of binary tree
  * @return: the root of the minimum subtree
