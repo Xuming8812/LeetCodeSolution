@@ -29,3 +29,25 @@ int maxProfit(vector<int>& prices) {
 
 	return result;
 }
+
+//the dp version
+int maxProfit(vector<int>& prices) {
+	if(prices.empty()){
+		return  0;
+	}
+	//use sell to store the maximum profit if we sell stock today
+	int sell = 0;
+	//use buy to store the maximum profit if we buy stock or skip
+	int buy = -prices[0];
+
+	//loop all stock prices
+	for (int price : prices) {
+		int sellOld = sell;
+		//update sell, the profit of buy plus current stock price and substract the fee
+		sell = max(sell, buy + price);
+		//update buy, the profit of previous sell substrack the current stock price
+		buy = max(buy, sellOld - price);
+	}
+
+	return sell;        
+}
