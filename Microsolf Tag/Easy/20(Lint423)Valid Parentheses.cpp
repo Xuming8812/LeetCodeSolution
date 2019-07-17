@@ -22,24 +22,27 @@ The brackets must close in the correct order, "()" and "()[]{}" are all valid bu
  */
 bool isValidParentheses(string &s) {
     // write your code here
+    //use a stack to store the parentheses
     stack<char> parentheses;
-    
+    //the hashmap to store the corresponding parentheses
     map<char,char> dict{{')','('},{']','['},{'}','{'}};
-    
+    //loop all chars
     for(auto c : s){
+        //save the left parentheses
         if(c == '(' || c =='{' || c=='['){
             parentheses.push(c);
         }
+        //the right parentheses
         else if(c == ')' || c == ']' || c =='}'){
-            if(parentheses.empty())
-            {
+            //no left parentheses in the stack
+            if(parentheses.empty()){
                 return false;
             }
-            
+            //if not match
             if(parentheses.top() != dict[c]){
                 return false;
             }
-            
+            //if match, pop the correponding parentheses
             parentheses.pop();
         }
     }

@@ -20,13 +20,14 @@ bool isPalindrome(int n) {
     // Write your code here
     
     vector<int> digits;
+    //get each bit of the given number and save them in a vector
     while(n){
         digits.push_back(n&1);
         n>>=1;
     }
     
     int length = digits.size();
-    
+    //compare left and right bit
     for(int i = 0;i<length/2;i++){
         if(digits[i] !=digits[length-i-1]){
             return false;

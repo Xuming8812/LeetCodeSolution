@@ -31,20 +31,22 @@ TreeNode * convertBST(TreeNode * root) {
     
     return root;
 }
-
+//the helper function to update the tree
 void helper(TreeNode * root){
+    //base condition
     if(root == nullptr) return;
-    
+    //inorder traversal but from right to left
     if(root->right){
         helper(root->right);
     }
-    
+    //update the current node
     root->val = root->val + sum;
+    //update the sum
     sum = root->val;
     
     if(root->left){
         helper(root->left);
     }
 }
-
+//global variable to store current sum
 int sum{0};

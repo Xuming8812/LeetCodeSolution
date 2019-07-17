@@ -24,18 +24,19 @@ int getAns(string &s, int k) {
     // Write your code here
     
     int result{0};
-    
+    //the pointer
     int start = 0;
     
     while(start<s.size()){
+        //update result
         result++;
-        
+        //reset the length of the substring
         int length = 1;
-        
+        //get the substring with same letters and length does not exceed k
         while(length<k && start+length<s.size() && s[start] == s[start+length]){
             length++;
         }
-        
+        //update the pointer
         start = start+length;
     }
     

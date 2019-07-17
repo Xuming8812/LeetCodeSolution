@@ -24,10 +24,10 @@ int countPrimeSetBits(int L, int R) {
     // Write your code here
     
     int result = 0;
-    
+    //loop all numbers between L and R
     for(int i = L; i<=R;i++){
         int num = i;
-        
+        //count the number of bit 1
         int count = 0;
         
         while(num){
@@ -45,7 +45,7 @@ int countPrimeSetBits(int L, int R) {
     
     return result;
 }
-
+//see if the number is prime, note that the max prime number is 19
 bool isPrime(int num){
     return num == 2 || num ==3 || num == 5 || num == 7 || num == 11 || num == 13 || num == 17 || num ==19;
 }

@@ -29,17 +29,20 @@ struct TreeNode {
  */
 string tree2str(TreeNode * t) {
     // write your code here
+    //corner case
     if(t==nullptr) return "";
     
     string result = to_string(t->val);
     
     bool hasLeftNode=false;
-    
+    //deal with left subtree
     if(t->left){
         hasLeftNode = true;
         result = result + "("+tree2str(t->left)+")";
     }
+    //deal with right substree
     if(t->right){
+        //if left subtree doesn't exist
         if(!hasLeftNode){
             result+="()";
         }

@@ -33,6 +33,7 @@ struct TreeNode {
  */
 TreeNode * mergeTrees(TreeNode * t1, TreeNode * t2) {
     // Write your code here
+    //base condition
     if(t1 == nullptr){
         return t2;
     }
@@ -40,9 +41,9 @@ TreeNode * mergeTrees(TreeNode * t1, TreeNode * t2) {
     if(t2 == nullptr){
         return t1;
     }
-    
+    //update the current node
     TreeNode* root = new TreeNode(t1->val+t2->val);
-    
+    //get the left and right children
     root->left = mergeTrees(t1->left,t2->left);
     root->right = mergeTrees(t1->right,t2->right);
     

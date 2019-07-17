@@ -19,25 +19,27 @@ Given a map size of m*n, 1 means space, 0 means obstacle, 9 means the endpoint. 
  */
 bool reachEndpoint(vector<vector<int>> &map) {
     // Write your code here
+
+    //corner case
     if(map.empty()) return false;
     if(map[0][0]==0) return false;
-    
+    //queue to store the position
     queue<vector<int>> bfs;
-    
+    //4 neighbors
     vector<vector<int>> neighbors{{-1,0},{1,0},{0,-1},{0,1}};
-    
+    //start from (0,0)
     bfs.push({0,0});
-
+    //bfs
     while(!bfs.empty()){
         int currentRow = bfs.front()[0];
         int currentColumn = bfs.front()[1];
-        
+        //reach end point
         if(map[currentRow][currentColumn]==9){return true;}
-        
+        //set the position as marked
         map[currentRow][currentColumn] = 0;
         
         bfs.pop();
-        
+        //loop all possible moves
         for(int i = 0;i<4;i++){
             int row = currentRow+neighbors[i][0];
             int col = currentColumn+neighbors[i][1];

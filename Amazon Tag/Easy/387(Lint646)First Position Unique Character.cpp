@@ -29,7 +29,7 @@ int firstUniqChar(string &s) {
     
     //use a hash map to store number of chars in the string
     map<char,int>dict;
-    
+    //count the number of each char
     for(auto item:s){
         dict[item]++;
     }

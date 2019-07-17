@@ -32,13 +32,14 @@ TreeNode * findSubtree(TreeNode * root) {
     
     return maxNode;
 }
-
+//the helper function to return the sum of a tree
 int helper(TreeNode * root){
+    //base condition
     if(root==nullptr) return 0;
-    
+    //post order traversal
     int left = helper(root->left);
     int right = helper(root->right);
-    
+    //get the sum of this tree
     int sum = left+right+root->val;
     
     if(maxNode==nullptr || sum>maxValue){

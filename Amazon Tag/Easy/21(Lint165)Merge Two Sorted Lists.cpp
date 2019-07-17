@@ -26,7 +26,7 @@ struct ListNode {
 ListNode * mergeTwoLists(ListNode * l1, ListNode * l2) {
     // write your code here
     
-    //condition
+    //base condition
     if(l1 == nullptr){
         return l2;
     }
@@ -34,7 +34,7 @@ ListNode * mergeTwoLists(ListNode * l1, ListNode * l2) {
     if(l2 == nullptr){
         return l1;
     }
-    
+    //recursive call the function
     if(l1->val < l2->val){
         l1->next = mergeTwoLists(l1->next,l2);
         return l1;

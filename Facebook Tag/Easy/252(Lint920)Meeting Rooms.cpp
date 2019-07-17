@@ -28,7 +28,7 @@ class Interval {
  * @param intervals: an array of meeting time intervals
  * @return: if a person could attend all meetings
  */
-bool canAttendMeetings(vector<Interval> &intervals) {
+bool canAttendMeetings(vector<Interval>&intervals) {
     // Write your code here
     if(intervals.empty()){
         return true;
@@ -46,8 +46,7 @@ bool canAttendMeetings(vector<Interval> &intervals) {
     int count{0};
     for(auto item : store){
         count+=item.second;
-        if(count >1)
-        {
+        if(count >1){
             return false;
         }
     }

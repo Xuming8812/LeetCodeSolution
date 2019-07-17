@@ -3,8 +3,15 @@
 #include<string>
 #include<queue>
 #include<sstream>
+#include<set>
 
 using namespace std;
+
+/*
+Two strings are given and you have to modify 1st string such that all the common 
+characters of the 2nd strings have to be removed and the uncommon characters of 
+the 2nd string have to be concatenated with uncommon characters of the 1st string.
+*/
 
 /**
  * @param s1: the 1st string

@@ -6,19 +6,10 @@
 
 using namespace std;
 
-class TreeNode {
-public:
-    int val;
-    TreeNode *left, *right;
-    TreeNode(int val) {
-        this->val = val;
-        this->left = nullptr;
-        this->right = nullptr;
-    }
-};
 
 /*
-Given a Binary Search Tree and a target number, return true if there exist two elements in the BST such that their sum is equal to the given target.
+Given a string target and a string array s, 
+output all strings containing target(ie target is a subsequence of s[i]) in their original order in the array s
 */
 
 /**

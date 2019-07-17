@@ -30,7 +30,7 @@ bool isValidParentheses(string &s) {
             parentheses.push(c);
         }
         else if(c == ')' || c == ']' || c =='}'){
-            //meet the right parenthes
+            //meet the right parenthes, see if the corresponding left parentheses is on top of the stack
             if(parentheses.empty()){
                 return false;
             }
@@ -42,7 +42,7 @@ bool isValidParentheses(string &s) {
             parentheses.pop();
         }
     }
-    
+    //if any left parentheses left
     return parentheses.empty();
 }
     

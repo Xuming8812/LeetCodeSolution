@@ -24,21 +24,24 @@ int closestTargetValue(int target, vector<int> &array) {
     if(array.size()<2) return -1;
     
     int result = -1;
-    
+    //sort so that we can use two pointers
     sort(array.begin(),array.end());
-    
+    //two pointers
     int start = 0, end = array.size()-1;
-    
+    //the distance of sum to target value
     int distance = INT_MAX;
     
     while(start<end){
+        //sum equals to target, return
         if(array[start]+array[end] ==target){
             return target;
         }
         else if(array[start]+array[end] >target){
+            //sum is bigger than target, move left
             end--;
         }
         else{
+            //sum is smaller, update result and move right
             if(target-array[start]-array[end]<distance){
                 distance = target-array[start]-array[end];
                 result = array[start]+array[end];

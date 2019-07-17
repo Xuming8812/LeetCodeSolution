@@ -12,9 +12,8 @@ using namespace std;
 /*
 You need to construct a string consists of parenthesis and integers from a binary tree with the preorder traversing way.
 
-The null node needs to be represented by empty parenthesis pair "()". 
-And you need to omit all the empty parenthesis pairs that don't affect the one-to-one mapping relationship between 
-the string and the original binary tree
+The null node needs to be represented by empty parenthesis pair "()". And you need to omit all the empty parenthesis 
+pairs that don't affect the one-to-one mapping relationship between the string and the original binary tree.
 */
 
 struct TreeNode {
@@ -30,17 +29,20 @@ struct TreeNode {
  */
 string tree2str(TreeNode * t) {
     // write your code here
+    //corner case
     if(t==nullptr) return "";
     
     string result = to_string(t->val);
     
     bool hasLeftNode=false;
-    
+    //deal with left subtree
     if(t->left){
         hasLeftNode = true;
         result = result + "("+tree2str(t->left)+")";
     }
+    //deal with right substree
     if(t->right){
+        //if left subtree doesn't exist
         if(!hasLeftNode){
             result+="()";
         }

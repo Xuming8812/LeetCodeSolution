@@ -33,12 +33,14 @@ int calPoints(vector<string> &ops) {
     
     for(auto item:ops){
         if(item == "C"){
+            //pop up last score
             if(store.empty()){
                 return -1;
             }
             store.pop_back();
         }
         else if(item == "D"){
+            //double last score
             if(store.empty()){
                 return -1;
             }
@@ -46,6 +48,7 @@ int calPoints(vector<string> &ops) {
             store.push_back(2*temp);
         }
         else if(item == "+"){
+            //sum up last 2 scores
             if(store.size()<2){
                 return -1;
             }
@@ -59,7 +62,7 @@ int calPoints(vector<string> &ops) {
     }
     
     int result{0};
-    
+    //sum up all scores
     for(auto item : store){
         result+=item;
     }

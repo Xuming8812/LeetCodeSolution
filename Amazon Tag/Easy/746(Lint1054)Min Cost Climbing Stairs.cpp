@@ -23,13 +23,13 @@ You need to find minimum cost to reach the top of the floor, and you can either 
  */
 int minCostClimbingStairs(vector<int> &cost) {
     // Write your code here
-    
+    //corner case
     if(cost.size()<2) return 0;
     if(cost.size()==2) return min(cost[0],cost[1]);
     
     int length = cost.size();
     cost.push_back(0);
-    
+    //the dp vector
     vector<int> dp = cost;
 
     for(int index = 2;index<=length;index++){

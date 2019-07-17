@@ -23,13 +23,11 @@ int findPairs(vector<int> &nums, int k) {
     // Write your code here
     
     //corner case 
-    
-    
     if(nums.empty()){
         return 0;
     }
     
-    //use a hashmap to store numbers
+    //use a hashmap to store numbers of each element in the vector
     map<int,int> dict;
     
     for(auto item : nums){
@@ -41,6 +39,7 @@ int findPairs(vector<int> &nums, int k) {
     
     //loop all items
     for(auto item : nums){
+        //the special case where k==0
         if(k == 0){
             if(dict[item]>=2){
                 results.insert({item,item});

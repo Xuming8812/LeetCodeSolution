@@ -41,8 +41,11 @@ ListNode * reverse(ListNode * head){
     while(current!=nullptr){
         //store the next node in advance
         ListNode* temp = current->next;
+        //attach the reversed list to the current node
         current->next = previous;
+        //reset the previous node
         previous = current;
+        //reset the current node
         current = temp;
     }
     

@@ -21,7 +21,7 @@ Give a number arbitrarily and determine if the number belongs to any of the inte
  */
 string isInterval(vector<vector<int>> &intervalList, int number) {
     // Write your code here
-
+    //just loop all intervals
     for(auto item : intervalList){
         if(number>=item[0]&&number<=item[1]){
             return "True";

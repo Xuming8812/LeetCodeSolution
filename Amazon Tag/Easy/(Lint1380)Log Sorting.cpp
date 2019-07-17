@@ -20,7 +20,8 @@ Logs whose content is letter should be sorted by their content in lexicographic 
 sort them by ID in lexicographic order.
 Logs whose content is number should be in their input order.
 */    
-   
+
+//the data structure to define a log, and override the <
 struct component{
     string id;
     string content;
@@ -53,21 +54,21 @@ vector<string> logSort(vector<string> &logs) {
     
     vector<string> output;
     vector<component> components;
-    
+    //store each log's content type, id and index
     for(int i = 0; i<logs.size();i++){
         component temp;
         temp.index = i;
-        
+        //find the " "
         int index = 0;
         for(;index<logs[i].size();index++){
             if(logs[i][index]==' '){
                 break;
             }
         }
-        
+        //get id and content
         temp.id = logs[i].substr(0,index);
         temp.content = logs[i].substr(index+1);
-        
+        //get the type
         if(logs[i][index+1]>='0' && logs[i][index+1]<='9'){
             temp.type = 2;
         }
@@ -79,9 +80,9 @@ vector<string> logSort(vector<string> &logs) {
         
     }
     
-    
+    //sort the log by given rules
     sort(components.begin(),components.end());
-    
+    //save the result
     for(auto item : components){
         output.push_back(item.id+" "+item.content);
     }

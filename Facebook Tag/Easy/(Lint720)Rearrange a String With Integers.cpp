@@ -10,7 +10,8 @@
 using namespace std;
 
 /*
-Given a collection of intervals, merge all overlapping intervals.
+Given a string containing uppercase alphabets and integer digits (from 0 to 9), 
+write a function to return the alphabets in the order followed by the sum of digits.
 */
 
 /**

@@ -20,12 +20,13 @@ Given two array, output their dot product
  */
 int dotProduct(vector<int> &A, vector<int> &B) {
     // Write your code here
+    //corner case
     if(A.size()!=B.size()||A.empty()||B.empty()){
         return -1;
     }
     
     int result{0};
-    
+    //just sum up the multiplication result
     for(int i = 0;i<A.size();i++){
         result+=A[i]*B[i];
     }
