@@ -20,8 +20,6 @@ Ignore all the characters '.' before the character '@'.
 Ignore the substring which starts with the first '+'(included) and ends with the character '@'(exclude).
 */  
 
-
-
 /**
  * @param emails: Original email
  * @return: Return the count of groups which has more than one email address in it.

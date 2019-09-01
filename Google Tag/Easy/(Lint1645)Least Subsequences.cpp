@@ -41,6 +41,10 @@ int LeastSubsequences(vector<int> &arrayIn) {
             store.push_back({arrayIn[i]});
         }
     }
+<<<<<<< HEAD
     
+=======
+     
+>>>>>>> 59b1b212aa74e7cfdcd86cd43caf30cf13d5ad60
     return store.size();
 }

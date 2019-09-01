@@ -31,11 +31,14 @@ vector<string> getAns(string &target, vector<string> &s) {
         }
     }
     
+<<<<<<< HEAD
     return result;   
+=======
+    return result;    
+>>>>>>> 59b1b212aa74e7cfdcd86cd43caf30cf13d5ad60
 }
 //helper function to see if the current string contain the target string
-bool isContain(string input,string target)
-{
+bool isContain(string input,string target){
     //corner case
     if(input.size()<target.size()){
         return false;
