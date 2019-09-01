@@ -43,7 +43,6 @@ int LeastSubsequences(vector<int> &arrayIn) {
             store.push_back({arrayIn[i]});
         }
     }
-    
-    
+     
     return store.size();
 }

@@ -26,7 +26,6 @@ The range [L1, R1] is a subrange of [L, R] if L <= L1 <= R1 <= R. Your job is to
  * @return:  the number of interesting subranges of [L,R]
  */
 int PalindromicRanges(int L, int R) {
-    // test
     
     //corner case
     if (R <= L) {
@@ -52,8 +51,7 @@ int PalindromicRanges(int L, int R) {
             }
         }
     }
-    return count;
-    
+    return count;    
 }
 //helper function to see if a integer is palindromic
 bool isPal(int v) {

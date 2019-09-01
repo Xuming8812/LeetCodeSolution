@@ -31,13 +31,10 @@ vector<string> getAns(string &target, vector<string> &s) {
         }
     }
     
-    return result;
-    
-    
+    return result;    
 }
 //helper function to see if the current string contain the target string
-bool isContain(string input,string target)
-{
+bool isContain(string input,string target){
     //corner case
     if(input.size()<target.size()){
         return false;
