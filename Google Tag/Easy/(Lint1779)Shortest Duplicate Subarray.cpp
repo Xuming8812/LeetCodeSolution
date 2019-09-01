@@ -13,12 +13,10 @@ Given an array, return the shortest subarray length which has duplicate elements
 If the array doesn't ha the subarray which has duplicate elements, return -1.
 */
 
-
 /**
  * @param arr: The array you should find shortest subarray length which has duplicate elements.
  * @return: Return the shortest subarray length which has duplicate elements.
  */
-
 int getLength(vector<int> &arr) {
     // Write your code here.
     //corner case

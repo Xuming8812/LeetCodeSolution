@@ -21,13 +21,13 @@ public:
         this->val = val;
         this->next = NULL;
      }
-}
+};
 /**
  * @param l1: ListNode l1 is the head of the linked list
  * @param l2: ListNode l2 is the head of the linked list
  * @return: ListNode head of linked list
  */
-ListNode * mergeTwoLists(ListNode * l1, ListNode * l2) {
+ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
     // write your code here
     
     //condition

@@ -19,13 +19,10 @@ struct Interval {
      Interval(int s, int e) : start(s), end(e) {}
 };
 
-
-
 /**
  * @param intervals: interval list.
  * @return: A new interval list.
  */
-    
 static bool compare(const Interval& a, const Interval& b){
     if(a.start<b.start){
         return true;
@@ -33,8 +30,7 @@ static bool compare(const Interval& a, const Interval& b){
         return a.end<b.end;
     }else{
         return false;
-    }
-        
+    }        
 } 
 
 vector<Interval> merge(vector<Interval> &intervals) {

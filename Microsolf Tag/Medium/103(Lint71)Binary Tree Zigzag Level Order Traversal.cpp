@@ -23,8 +23,6 @@ Given a binary tree, return the zigzag level order traversal of its nodes' value
 (ie, from left to right, then right to left for the next level and alternate between).
 */
 
-
-
 /**
  * @param root: A Tree
  * @return: A list of lists of integer include the zigzag level order traversal of its nodes' values.

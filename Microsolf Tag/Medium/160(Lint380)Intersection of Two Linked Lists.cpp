@@ -21,7 +21,7 @@ public:
         this->val = val;
         this->next = NULL;
      }
-}
+};
 
 /**
  * @param headA: the first list

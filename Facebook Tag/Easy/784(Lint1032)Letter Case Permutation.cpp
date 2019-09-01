@@ -10,8 +10,8 @@
 using namespace std;
 
 /*
-Given a sorted array, remove the duplicates in place such that each element appear at most twice and return the new length.
-If a number appears more than two times, then keep the number appears twice in array after remove.
+Given a string S, we can transform every letter individually to be lowercase or uppercase to create another string.  
+Return a list of all possible strings we could create.
 */ 
 
 //helper function to turn a letter to upper case
@@ -61,7 +61,6 @@ void dfs(string &S,int start, string current){
     
     //see if current char is a letter
     if(!isdigit(S[start])){
-
         //turn it to upper case and dfs
         char c = toUpper(S[start]);
         current = current + string(1,c);

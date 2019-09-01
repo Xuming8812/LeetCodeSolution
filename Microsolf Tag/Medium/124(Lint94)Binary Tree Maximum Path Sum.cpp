@@ -18,16 +18,16 @@ public:
 };
 
 /*
-Given a binary search tree (See Definition) and a node in it, find the in-order successor of that node in the BST.
+Given a non-empty binary tree, find the maximum path sum.
 
-If the given node has no in-order successor in the tree, return null.
+For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. 
+The path must contain at least one node and does not need to go through the root.
 */
 
 /**
  * @param root: The root of binary tree.
  * @return: An integer
  */
-
 int maxPathSum(TreeNode* root) {
     int result{0};
     

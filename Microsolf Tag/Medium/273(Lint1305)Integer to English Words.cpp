@@ -12,7 +12,6 @@ using namespace std;
 Convert a non-negative integer to its english words representation. Given input is guaranteed to be less than 2^31 - 1.
 */ 
     
-
 /**
  * @param num: a non-negative integer
  * @return: english words representation

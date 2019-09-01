@@ -68,7 +68,7 @@ string generate(string s)
         }
     }
     //save last char
-    result = result+to_string(count)+to_string(c-'0');
+    result = result+to_string(count)+to_string(current-'0');
     
     return result;   
 }

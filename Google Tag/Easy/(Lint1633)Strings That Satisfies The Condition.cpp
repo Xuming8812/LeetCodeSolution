@@ -31,9 +31,7 @@ vector<string> getAns(string &target, vector<string> &s) {
         }
     }
     
-    return result;
-    
-    
+    return result;   
 }
 //helper function to see if the current string contain the target string
 bool isContain(string input,string target)

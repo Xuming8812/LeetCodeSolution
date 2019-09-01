@@ -21,14 +21,14 @@ public:
         this->val = val;
         this->next = NULL;
      }
-}
+};
 
 /**
  * @param head: n
  * @return: The new head of reversed linked list.
  */
 
-ListNode * reverse(ListNode * head){
+ListNode* reverse(ListNode* head){
     //corner case
     if(head == nullptr){
         return nullptr;

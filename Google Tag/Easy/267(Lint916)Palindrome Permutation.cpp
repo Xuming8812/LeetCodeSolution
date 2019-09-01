@@ -26,7 +26,7 @@ bool canPermutePalindrome(string &s) {
     
     int count = 0;
     
-    for(int item:dict){
+    for(auto item:dict){
         if(item.second%2==1){
             count++;
         }

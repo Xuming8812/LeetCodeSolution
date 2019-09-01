@@ -32,10 +32,8 @@ TreeNode * buildTree(vector<int> &inorder, vector<int> &postorder) {
         return nullptr;
     }
     
-    return helper(inorder,0,inorder.size()-1,postorder,0,postorder.size()-1);
-    
+    return helper(inorder,0,inorder.size()-1,postorder,0,postorder.size()-1);   
 }
-
 
 TreeNode* helper(vector<int> &inorder, int inStart, int inEnd, vector<int> &postorder, int postStart, int postEnd){
     if(inStart>inEnd){

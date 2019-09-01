@@ -31,7 +31,7 @@ class TreeNode {
  * @param nums: an array
  * @return: the maximum tree
  */
-TreeNode * constructMaximumBinaryTree(vector<int> &nums) {
+TreeNode* constructMaximumBinaryTree(vector<int> &nums) {
     // Write your code here
     if(nums.size()==1){
         return  new TreeNode(nums[0]);

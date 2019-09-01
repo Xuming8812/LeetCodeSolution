@@ -22,36 +22,30 @@ Here, we will use the integers 0, 1, and 2 to represent the color red, white, an
  */
 void sortColors(vector<int> &nums) {
     // write your code here
-    if(nums.empty())
-    {
+    if(nums.empty()){
         return;
     }
     
-    int pl{0},pr=nums.size()-1,i{0};
+    int leftIndex{0},rightIndex=nums.size()-1,index{0};
     
-    while(i<=pr)
-    {
-        if(nums[i] == 0)
-        {
-            swap(nums,i,pl);
-            pl++;
-            i++;
+    while(index<=rightIndex){
+        if(nums[index] == 0){
+            swap(nums,index,leftIndex);
+            leftIndex++;
+            index++;
         }
-        else if(nums[i] == 1)
-        {
-            i++;
+        else if(nums[index] == 1){
+            index++;
         }
-        else
-        {
-            swap(nums,i,pr);
-            pr--;
+        else{
+            swap(nums,index,rightIndex);
+            rightIndex--;
         }
     }
 
 }
 
-void swap(vector<int> &nums,int i, int j)
-{
+void swap(vector<int> &nums,int i, int j){
     int temp = nums[i];
     nums[i] = nums[j];
     nums[j] = temp;

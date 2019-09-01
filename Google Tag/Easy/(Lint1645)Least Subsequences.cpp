@@ -15,9 +15,7 @@ Output the minimum number of subsequences you can get by splitting.
  * @param arrayIn: The original array.
  * @return: Count the minimum number of subarrays.
  */
-int LeastSubsequences(vector<int> &arrayIn) {
-    // Write your code here.
-    
+int LeastSubsequences(vector<int> &arrayIn) {  
     //corner case
     if(arrayIn.empty()){
         return 0;
@@ -43,7 +41,6 @@ int LeastSubsequences(vector<int> &arrayIn) {
             store.push_back({arrayIn[i]});
         }
     }
-    
     
     return store.size();
 }

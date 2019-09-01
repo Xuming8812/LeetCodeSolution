@@ -17,13 +17,11 @@ void rotate(vector<int>& nums, int k) {
 
 	k = k % nums.size();
 
-	for (int i{ 0 }; i < k; i++)
-	{
+	for (int i{ 0 }; i < k; i++){
 		store[i] = nums[nums.size() - k + i];
 	}
 
-	for (int i = k; i < nums.size(); i++)
-	{
+	for (int i = k; i < nums.size(); i++){
 		store[i] = nums[i - k];
 	}
 
@@ -40,7 +38,7 @@ void rotate(vector<int> &nums, int k) {
 	// Write your code here
 
 	if (nums.size() < 2) {
-		return nums;
+		return;
 	}
 
 	k = k % nums.size();

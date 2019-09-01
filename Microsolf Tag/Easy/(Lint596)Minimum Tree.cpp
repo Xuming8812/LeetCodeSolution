@@ -16,8 +16,6 @@ class TreeNode {
         }
 };
 
-
-
 /**
  * @param root: the root of binary tree
  * @return: the root of the minimum subtree

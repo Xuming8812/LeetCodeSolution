@@ -10,7 +10,7 @@
 using namespace std;
 
 /*
-Given two rectangles, find if the given two rectangles overlap or not.
+Given a stream of integers and a window size, calculate the moving average of all integers in the sliding window.
 */  
 
 class MovingAverage {

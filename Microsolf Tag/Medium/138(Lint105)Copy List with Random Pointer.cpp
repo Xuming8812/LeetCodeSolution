@@ -34,8 +34,7 @@ RandomListNode *copyRandomList(RandomListNode *head) {
     
     RandomListNode* current = dummy;
     
-    while(temp)
-    {
+    while(temp){
         RandomListNode* newNode = new RandomListNode(temp->label);
         store[temp]= newNode;
         
@@ -48,10 +47,8 @@ RandomListNode *copyRandomList(RandomListNode *head) {
     
     temp = head;
     
-    while(temp)
-    {
-        if(temp->random)
-        {
+    while(temp){
+        if(temp->random){
             store[temp]->random = store[temp->random];
         }
         

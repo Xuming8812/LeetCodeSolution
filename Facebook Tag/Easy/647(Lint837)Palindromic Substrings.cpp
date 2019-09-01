@@ -15,7 +15,6 @@ Given a string, your task is to count how many palindromic substrings in this st
 The substrings with different start indexes or end indexes are counted as different substrings even they consist of same characters.    
 */    
     
-    
 /**
  * @param str: s string
  * @return: return an integer, denote the number of the palindromic substrings
@@ -34,8 +33,6 @@ int countPalindromicSubstrings(string &str) {
     //dp matrix, dp[i][j] is whether str[j...i] is a palindromic
     vector<vector<int>> dp(length,vector<int>(length));
     
-    
-    
     for(int i = 0;i<length;i++){
         for(int j=0;j<=i;j++){
             
@@ -52,7 +49,6 @@ int countPalindromicSubstrings(string &str) {
                 result += dp[i][j];
             }
         }
-    }
-    
+    }    
     return result;
 }

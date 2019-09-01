@@ -32,7 +32,7 @@ class TreeNode {
  * @param t: the t' root
  * @return: whether tree t has exactly the same structure and node values with a subtree of s
  */
-bool isSubtree(TreeNode * s, TreeNode * t) {
+bool isSubtree(TreeNode* s, TreeNode* t) {
     // Write your code here
     //corner case
     if(s == nullptr){
@@ -51,7 +51,7 @@ bool isSubtree(TreeNode * s, TreeNode * t) {
 }
 
 //the helper function to see if two given trees have the same structure and node values
-bool isSameTree(TreeNode* s, TreeNode * t){
+bool isSameTree(TreeNode* s, TreeNode* t){
     //corner case
     if(s == nullptr && t == nullptr){
         return true;

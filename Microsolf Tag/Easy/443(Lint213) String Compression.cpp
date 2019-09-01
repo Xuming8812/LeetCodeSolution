@@ -17,26 +17,21 @@ After you are done modifying the input array in-place, return the new length of 
 */
 
 //inplace version
-int compress(vector<char>& chars)
-{
+int compress(vector<char>& chars){
 	int count = 0;
 	int index = 0;
 	//loop all characters
-	for (int i = 0; i < chars.size(); i++)
-	{
+	for (int i = 0; i < chars.size(); i++){
 		//add count
 		count++;
 		//if last char or different char from previous
-		if (i == chars.size() - 1 || chars[i] != chars[i + 1])
-		{
+		if (i == chars.size() - 1 || chars[i] != chars[i + 1]){
 			//move the pointer
 			chars[index++] = chars[i];
 			//if the count is bigger than 1
-			if (count != 1)
-			{
+			if (count != 1){
 				
-				for (char ch : to_string(count))
-				{
+				for (char ch : to_string(count)){
 					chars[index++] = ch;
 
 				}

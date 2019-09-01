@@ -27,7 +27,6 @@ class TreeNode {
  * @param root: the root of the binary tree
  * @return: all root-to-leaf paths
  */
-
 vector<string> binaryTreePaths(TreeNode* root) {
     vector<string> result;
     //corner case
@@ -57,6 +56,5 @@ void binaryTreePathsHelper(TreeNode* root,vector<string>& results,string path)
 
     if(root->right){
         binaryTreePathsHelper(root->right,results,currentPath);
-    }
-            
+    }            
 }

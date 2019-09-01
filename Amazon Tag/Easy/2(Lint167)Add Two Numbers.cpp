@@ -23,7 +23,7 @@ public:
         this->val = val;
         this->next = NULL;
      }
-}    
+};    
     
 /**
  * @param l1: the first list

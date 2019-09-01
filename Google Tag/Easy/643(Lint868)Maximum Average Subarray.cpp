@@ -14,8 +14,6 @@ Given an array consisting of n integers, find the contiguous subarray of given l
 You need to output the maximum average value.
 */  
 
-
-
 /**
  * @param nums: an array
  * @param k: an integer

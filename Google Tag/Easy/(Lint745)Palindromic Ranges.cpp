@@ -26,8 +26,7 @@ The range [L1, R1] is a subrange of [L, R] if L <= L1 <= R1 <= R. Your job is to
  * @return:  the number of interesting subranges of [L,R]
  */
 int PalindromicRanges(int L, int R) {
-    // test
-    
+   
     //corner case
     if (R <= L) {
         return 0;
@@ -36,6 +35,7 @@ int PalindromicRanges(int L, int R) {
     // 1. use an array to store all palindromes between L and R;
     // use R-L+2, to include 0 and len+1 (i.e. prefix sum for L and R)
     vector<int> dp(R-L+2); // accumulation of palidrome counts
+    
     for (int i=L; i<=R; ++i) {
         dp[i-L+1] = dp[i-L]; // accumulate previous value
         if (isPal(i)) {

@@ -21,7 +21,6 @@ bool exist(vector<vector<char>>& board, string word) {
     //corner case
     if(board.empty()) return false;
 
-
     //loop all position to start the find the word        
     for(int row = 0;row<board.size();row++){
         for(int col = 0;col<board[0].size();col++ ){

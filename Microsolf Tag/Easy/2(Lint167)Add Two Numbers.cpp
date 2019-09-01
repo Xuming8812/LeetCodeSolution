@@ -23,14 +23,14 @@ public:
         this->val = val;
         this->next = NULL;
      }
-}    
+};    
     
 /**
  * @param l1: the first list
  * @param l2: the second list
  * @return: the sum list of l1 and l2 
  */
-ListNode * addLists(ListNode * l1, ListNode * l2) {
+ListNode* addLists(ListNode * l1, ListNode * l2) {
     // write your code here
     ListNode* dummy = new ListNode(0);
     ListNode* current = dummy;

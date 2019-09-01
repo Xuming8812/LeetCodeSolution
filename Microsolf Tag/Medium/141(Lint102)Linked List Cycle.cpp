@@ -21,7 +21,7 @@ public:
         this->val = val;
         this->next = NULL;
      }
-}
+};
 /**
  * @param head: The first node of linked list.
  * @return: True if it has a cycle, or false

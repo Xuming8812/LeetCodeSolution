@@ -24,7 +24,6 @@ Given a collection of intervals, merge all overlapping intervals.
  * @param intervals: interval list.
  * @return: A new interval list.
  */
-    
 static bool compare(const Interval& a, const Interval& b){
     if(a.start<b.start){
         return true;

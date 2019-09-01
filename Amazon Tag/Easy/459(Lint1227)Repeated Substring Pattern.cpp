@@ -10,7 +10,8 @@
 using namespace std;
 
 /*
-Given a map size of m*n, 1 means space, 0 means obstacle, 9 means the endpoint. You start at (0,0) and return whether you can reach the endpoint.
+Given a non-empty string check if it can be constructed by taking a substring of it and appending multiple copies of the substring together. 
+You may assume the given string consists of lowercase English letters only and its length will not exceed 10000.
 */  
     
 /**
